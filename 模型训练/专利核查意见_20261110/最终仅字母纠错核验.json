@@ -1,0 +1,44 @@
+{
+  "source": "/mnt/public/zhouyibo/模型训练/01_专利文档/11.9-二稿-一种基于审计过程数据的报销审计系统及方法(1).docx",
+  "original_backup": "/mnt/public/zhouyibo/模型训练/专利核查意见_20261110/源文件修改前备份/11.9-二稿-一种基于审计过程数据的报销审计系统及方法(1).docx",
+  "replaces_broader_edit": true,
+  "scope": "仅六个小写v改为已定义的大写V；其余内容恢复原稿",
+  "author": "周奕博",
+  "edits": [
+    {
+      "paragraph": 200,
+      "before": "v",
+      "after": "V"
+    },
+    {
+      "paragraph": 202,
+      "before": "v",
+      "after": "V"
+    },
+    {
+      "paragraph": 203,
+      "before": "v",
+      "after": "V"
+    },
+    {
+      "paragraph": 204,
+      "before": "v",
+      "after": "V"
+    },
+    {
+      "paragraph": 204,
+      "before": "v",
+      "after": "V"
+    },
+    {
+      "paragraph": 232,
+      "before": "v",
+      "after": "V"
+    }
+  ],
+  "original_xml_restored_by_rejecting_only_new_edits": true,
+  "all_original_revisions_preserved": true,
+  "other_package_parts_unchanged_except_tracking_setting": true,
+  "source_sha256": "86141f9da1e422442a595cb343d2f3cecca4d64591e470f81f9b828d75a59b7d",
+  "timestamp": "2026-11-10T05:24:31.848331+00:00"
+}

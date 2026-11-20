@@ -1,0 +1,16 @@
+{
+  "tests_passed": 242,
+  "tests_skipped": 1,
+  "all_three_components_optimized": true,
+  "all_three_components_exercised": true,
+  "module_calls": {
+    "relation": 462,
+    "contribution": 55,
+    "corrector": 32
+  },
+  "validation_workflows": 23,
+  "correct": 12,
+  "accuracy": 0.5217391304347826,
+  "amount_conservation_valid": true,
+  "report": "三模块评测/tests.xml"
+}

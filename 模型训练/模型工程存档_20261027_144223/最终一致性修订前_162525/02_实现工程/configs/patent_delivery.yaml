@@ -1,0 +1,51 @@
+project:
+  seed: 3407
+data:
+  partitions: data/三模块交付_20261027/dataset/partitions.jsonl
+  minimum_approved_train_workflows: 20
+model:
+  name: Qwen/Qwen3-VL-8B-Instruct
+  revision: 0c351dd01ed87e9c1b53cbc748cba10e6187ff3b
+  hidden_size: 4096
+  dimension: 512
+  width: 256
+  role_slots: 8
+  freeze_base: true
+  attention_backend: sdpa
+  adapter_path: models/报销审计_三模块/checkpoint_20261027_5217/reader_lora
+reader:
+  text_chunk_tokens: 2048
+  chunk_overlap_tokens: 128
+  total_input_tokens: 8192
+  image_max_pixels: 1048576
+  pdf_dpi: 120
+  condition_batch: 3
+heads:
+  learning_rate: 0.0003
+  weight_decay: 0.01
+  gradient_clip: 1.0
+  policy_learning_rate_multiplier: 20.0
+  initial_projection_gain: 0.1
+  relation_class_weights:
+  - 1.0
+  - 6.0
+  - 0.25
+  warm_start_projection_gain: 1.0
+correction:
+  max_rounds: 2
+  learning_rate: 0.0001
+  rho_relative: 0.03
+thresholds:
+  reference: 0.25
+  support: 0.4
+  conflict: 0.65
+  negative_contribution: -0.05
+  missed_contribution: 0.15
+fast_training:
+  epochs:
+    B1: 5
+    B2: 5
+    B3: 8
+    B4: 5
+    C: 10
+  patience: 3

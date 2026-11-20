@@ -1,0 +1,31 @@
+{
+  "scope": "delivered LoRA checkpoint",
+  "verified_at": "2026-10-23T02:05:36.286964+08:00",
+  "files": [
+    {
+      "path": "02_实现工程/models/报销审计_LoRA/README.md",
+      "bytes": 902,
+      "sha256": "c4659cb7fb87e48ec969eca4ccc6ee2707b2f817a7d27685daf2f1482707319a"
+    },
+    {
+      "path": "02_实现工程/models/报销审计_LoRA/adapter_config.json",
+      "bytes": 1060,
+      "sha256": "0f4df1d1e7dfc57bfe5be2775beb027bf3652caea187c7b698df581529aa572a"
+    },
+    {
+      "path": "02_实现工程/models/报销审计_LoRA/adapter_model.safetensors",
+      "bytes": 20461568,
+      "sha256": "c408780bf6d6510342a75e3cc1bbd75881103b1d2a957dc9aefd5f3049e74291"
+    },
+    {
+      "path": "02_实现工程/models/报销审计_LoRA/training_state.pt",
+      "bytes": 40991857,
+      "sha256": "e07382645a2cfbf56f8390853ad0f669b51bbdcb7baceaf14cd901a6cb3b085d"
+    }
+  ],
+  "all_valid": true,
+  "adapter_header_valid": true,
+  "adapter_and_training_state_unchanged": true,
+  "base_model_included": false,
+  "comparison_model_included": false
+}

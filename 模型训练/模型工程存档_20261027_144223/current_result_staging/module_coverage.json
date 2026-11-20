@@ -1,0 +1,169 @@
+{
+  "updated_at": "2026-10-27T14:20:32.599114+08:00",
+  "delivery_document": "/mnt/public/zhouyibo/模型训练/01_专利文档/报销审计专利_开发人员完整实现指南_v3.md",
+  "delivery_document_sha256": "83b53761b1ec94e9849a2cb9a29ea6907dc437459e7c16d0fd88ac85c1f5ffd4",
+  "checks": [
+    {
+      "requirement": "shared_backbone",
+      "document_sections": "7/10/18",
+      "status": "implemented",
+      "finding": "Actual pinned Qwen3-VL-8B; new source-QA LoRA, fresh features for all 67 cases, and all heads retrained.",
+      "evidence": {
+        "model": "Qwen/Qwen3-VL-8B-Instruct",
+        "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+        "attention": "sdpa",
+        "max_pixels": 1048576,
+        "encoding_prompt": "Read this material and preserve factual information. Do not make a final audit decision.",
+        "pooling": "last_non_padding_input_v1",
+        "adapter_sha256": "75c5c6acb531f3e56d91c00ace39f57dbbd2dd20168d3e13dd025e0c21779e85",
+        "adapter_config_sha256": "0f4df1d1e7dfc57bfe5be2775beb027bf3652caea187c7b698df581529aa572a",
+        "kind": "frozen_backbone",
+        "chunk_tokens": 2048,
+        "overlap_tokens": 128,
+        "chunk_reduction": "mean_independent_views",
+        "pdf_dpi": 120,
+        "material_reduction": "mean_text_aggregate_and_whole_pages",
+        "long_image_views": "automatic_long_image_tile_v1",
+        "runtime_feature_contract": "currency_bound_v2",
+        "policy_encoding": "normative_content_with_role_definitions_without_identifiers_or_review_metadata_v2"
+      }
+    },
+    {
+      "requirement": "policy_guided_relation",
+      "document_sections": "11",
+      "status": "exercised",
+      "finding": "Independent program comparison path, role contexts and parameter updates; full predictions call relation.",
+      "evidence": {
+        "calls_in_best_23_validation": 462,
+        "nonzero_gradient_steps": 276
+      }
+    },
+    {
+      "requirement": "whole_material_masking",
+      "document_sections": "12",
+      "status": "exercised",
+      "finding": "Full forward masks each material and recomputes roles, operands and comparisons; full regression passed.",
+      "evidence": {
+        "source_mask_recomputations": 802
+      }
+    },
+    {
+      "requirement": "contribution_and_citations",
+      "document_sections": "12/13",
+      "status": "exercised",
+      "finding": "Contribution module uses masking deltas; citations are checked against actual source providers.",
+      "evidence": {
+        "calls_in_best_23_validation": 55,
+        "nonzero_gradient_steps": 300
+      }
+    },
+    {
+      "requirement": "localized_correction",
+      "document_sections": "14",
+      "status": "exercised",
+      "finding": "Error-addressed updates, unchanged conditions reused, maximum two rounds.",
+      "evidence": {
+        "calls_in_best_23_validation": 32,
+        "nonzero_gradient_steps": 70
+      }
+    },
+    {
+      "requirement": "staged_training",
+      "document_sections": "16",
+      "status": "exercised",
+      "finding": "Mandatory B1/B2/B3/B4/C optimized in current run. Optional C2 was exercised in earlier run 007.",
+      "evidence": {
+        "B1": 72,
+        "B2": 96,
+        "B3": 72,
+        "B4": 132,
+        "C": 70
+      }
+    },
+    {
+      "requirement": "real_file_variants",
+      "document_sections": "17.1/17.2",
+      "status": "exercised",
+      "finding": "Source-verified file-deletion variants share parent training partitions.",
+      "evidence": {
+        "original_train": 24,
+        "variants": 20
+      }
+    },
+    {
+      "requirement": "bounded_internal_perturbations",
+      "document_sections": "17.3",
+      "status": "exercised",
+      "finding": "Accepted genuine detectable perturbations occurred in later training with the same runtime citation verification mask.",
+      "evidence": {
+        "training_summary": "/mnt/public/zhouyibo/模型训练/02_实现工程/runs/patent_goal_20261027/trial_007_projection01/weights/training_summary.json",
+        "accepted_training_exposures": 4,
+        "earlier_unsuccessful_diagnostic": "/mnt/public/zhouyibo/模型训练/02_实现工程/runs/patent_goal_20261027/perturbation_audit/summary.json"
+      }
+    },
+    {
+      "requirement": "source_bound_amounts",
+      "document_sections": "19",
+      "status": "exercised_incomplete_input_coverage",
+      "finding": "Programmed Decimal amounts and source-bound expressions run; missing policy and amount evidence remains unresolved.",
+      "evidence": {
+        "conservation_checks": 23,
+        "validation_workflows": 23
+      }
+    },
+    {
+      "requirement": "facts_amounts_trace_review",
+      "document_sections": "20",
+      "status": "exercised",
+      "finding": "Every full prediction contains F/B/T/review and actual module counters.",
+      "evidence": {
+        "outputs": 23
+      }
+    },
+    {
+      "requirement": "periodic_validation",
+      "document_sections": "21",
+      "status": "exercised",
+      "finding": "Each completed tuning cycle saves predictions before independent scoring; history is append-only.",
+      "evidence": "/mnt/public/zhouyibo/模型训练/02_实现工程/runs/patent_goal_20261027/evaluation_history.jsonl"
+    },
+    {
+      "requirement": "train_split_isolation",
+      "document_sections": "5/9/21.3",
+      "status": "enforced",
+      "finding": "Test examples are excluded from training, targeted rereads and tuning; test-reference file is not opened.",
+      "evidence": {
+        "validation_workflows": 23,
+        "test_targets_loaded": false
+      }
+    },
+    {
+      "requirement": "formal_retrained_ablations",
+      "document_sections": "21.1",
+      "status": "pending",
+      "finding": "Runtime ablation diagnostics do not substitute for E3 retraining controls.",
+      "evidence": null
+    },
+    {
+      "requirement": "source_policy_coverage",
+      "document_sections": "8/22",
+      "status": "incomplete",
+      "finding": "18/23 workflows retain pending remaining policy scope; no blanket approval was applied.",
+      "evidence": {
+        "verified": 5,
+        "pending": 18
+      }
+    },
+    {
+      "requirement": "joint_accuracy_above_half",
+      "document_sections": "user",
+      "status": "achieved_on_tuned_validation",
+      "finding": "Saved full predictions independently scored at 12/23; not an unbiased test estimate.",
+      "evidence": {
+        "correct": 12,
+        "total": 23,
+        "accuracy": 0.5217391304347826
+      }
+    }
+  ]
+}

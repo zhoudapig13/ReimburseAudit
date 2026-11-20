@@ -1,0 +1,1134 @@
+{
+  "source": "/mnt/public/zhouyibo/模型训练/01_专利文档/11.3-一稿-一种基于审计过程数据的报销审计系统及方法.docx",
+  "backup": "/mnt/public/zhouyibo/模型训练/专利核查意见_20261104/字母显示修复前备份_20261105/11.3-一稿-一种基于审计过程数据的报销审计系统及方法.docx",
+  "source_sha256_before": "d256e7a1cbee3c8c723f992c597720ad42df4c503e957f8c4221abbff5057c56",
+  "draft": "/mnt/public/zhouyibo/模型训练/专利核查意见_20261104/周奕博_修订字母显示修复_20261105.docx",
+  "author": "周奕博",
+  "converted_inline_math_symbols": 222,
+  "inserted_symbols": 154,
+  "deleted_symbols": 68,
+  "accepted_visible_text_unchanged": true,
+  "rejected_visible_text_unchanged": true,
+  "all_display_equations_still_native": true,
+  "no_equation_objects_enclosed_by_revision_wrappers": true,
+  "path_paragraph_all_symbols_present_as_text": true,
+  "original_comments_and_images_unchanged": true,
+  "written_to_source": true,
+  "symbols": [
+    {
+      "revision_id": "1170",
+      "kind": "ins",
+      "symbol_text": "i"
+    },
+    {
+      "revision_id": "1177",
+      "kind": "ins",
+      "symbol_text": "E={Ee}e=1NE"
+    },
+    {
+      "revision_id": "1177",
+      "kind": "ins",
+      "symbol_text": "NE"
+    },
+    {
+      "revision_id": "1177",
+      "kind": "ins",
+      "symbol_text": "e"
+    },
+    {
+      "revision_id": "1177",
+      "kind": "ins",
+      "symbol_text": "e"
+    },
+    {
+      "revision_id": "1180",
+      "kind": "ins",
+      "symbol_text": "Ee=⟨eid,rawe,typee,texte⟩"
+    },
+    {
+      "revision_id": "1188",
+      "kind": "ins",
+      "symbol_text": "P={pj}j=1NP"
+    },
+    {
+      "revision_id": "1188",
+      "kind": "ins",
+      "symbol_text": "NP"
+    },
+    {
+      "revision_id": "1188",
+      "kind": "ins",
+      "symbol_text": "j"
+    },
+    {
+      "revision_id": "1188",
+      "kind": "ins",
+      "symbol_text": "pj"
+    },
+    {
+      "revision_id": "1188",
+      "kind": "ins",
+      "symbol_text": "j"
+    },
+    {
+      "revision_id": "1194",
+      "kind": "ins",
+      "symbol_text": "pj"
+    },
+    {
+      "revision_id": "1205",
+      "kind": "ins",
+      "symbol_text": "j"
+    },
+    {
+      "revision_id": "1228",
+      "kind": "ins",
+      "symbol_text": "i"
+    },
+    {
+      "revision_id": "1229",
+      "kind": "ins",
+      "symbol_text": "pj"
+    },
+    {
+      "revision_id": "1230",
+      "kind": "ins",
+      "symbol_text": "ProjQ"
+    },
+    {
+      "revision_id": "1230",
+      "kind": "ins",
+      "symbol_text": "hij(0)"
+    },
+    {
+      "revision_id": "1231",
+      "kind": "ins",
+      "symbol_text": "he"
+    },
+    {
+      "revision_id": "1231",
+      "kind": "ins",
+      "symbol_text": "e"
+    },
+    {
+      "revision_id": "1231",
+      "kind": "ins",
+      "symbol_text": "ProjE"
+    },
+    {
+      "revision_id": "1231",
+      "kind": "ins",
+      "symbol_text": "he"
+    },
+    {
+      "revision_id": "1231",
+      "kind": "ins",
+      "symbol_text": "hij(0)"
+    },
+    {
+      "revision_id": "1231",
+      "kind": "ins",
+      "symbol_text": "d"
+    },
+    {
+      "revision_id": "1231",
+      "kind": "ins",
+      "symbol_text": "X"
+    },
+    {
+      "revision_id": "1231",
+      "kind": "ins",
+      "symbol_text": "P"
+    },
+    {
+      "revision_id": "1231",
+      "kind": "ins",
+      "symbol_text": "(0)"
+    },
+    {
+      "revision_id": "1241",
+      "kind": "ins",
+      "symbol_text": "mije"
+    },
+    {
+      "revision_id": "1251",
+      "kind": "ins",
+      "symbol_text": "i"
+    },
+    {
+      "revision_id": "1251",
+      "kind": "ins",
+      "symbol_text": "j"
+    },
+    {
+      "revision_id": "1251",
+      "kind": "ins",
+      "symbol_text": "e"
+    },
+    {
+      "revision_id": "1251",
+      "kind": "ins",
+      "symbol_text": "d"
+    },
+    {
+      "revision_id": "1252",
+      "kind": "ins",
+      "symbol_text": "d"
+    },
+    {
+      "revision_id": "1256",
+      "kind": "ins",
+      "symbol_text": "σ(x)=1/(1+exp(-x))"
+    },
+    {
+      "revision_id": "1258",
+      "kind": "ins",
+      "symbol_text": "πije=⟨πijeS,πijeC,πijeU⟩"
+    },
+    {
+      "revision_id": "1259",
+      "kind": "ins",
+      "symbol_text": "rije"
+    },
+    {
+      "revision_id": "1259",
+      "kind": "ins",
+      "symbol_text": "πije"
+    },
+    {
+      "revision_id": "1259",
+      "kind": "ins",
+      "symbol_text": "Wo"
+    },
+    {
+      "revision_id": "1259",
+      "kind": "ins",
+      "symbol_text": "bo"
+    },
+    {
+      "revision_id": "1259",
+      "kind": "ins",
+      "symbol_text": "d"
+    },
+    {
+      "revision_id": "1268",
+      "kind": "ins",
+      "symbol_text": "Hijq"
+    },
+    {
+      "revision_id": "1268",
+      "kind": "ins",
+      "symbol_text": "Hijq,(-e)"
+    },
+    {
+      "revision_id": "1268",
+      "kind": "ins",
+      "symbol_text": "e"
+    },
+    {
+      "revision_id": "1268",
+      "kind": "ins",
+      "symbol_text": "Δijeq"
+    },
+    {
+      "revision_id": "1268",
+      "kind": "ins",
+      "symbol_text": "e"
+    },
+    {
+      "revision_id": "1269",
+      "kind": "ins",
+      "symbol_text": "(-e)"
+    },
+    {
+      "revision_id": "1269",
+      "kind": "ins",
+      "symbol_text": "e"
+    },
+    {
+      "revision_id": "1270",
+      "kind": "ins",
+      "symbol_text": "t"
+    },
+    {
+      "revision_id": "1270",
+      "kind": "ins",
+      "symbol_text": "t∈reqj"
+    },
+    {
+      "revision_id": "1272",
+      "kind": "ins",
+      "symbol_text": "i"
+    },
+    {
+      "revision_id": "1272",
+      "kind": "ins",
+      "symbol_text": "j"
+    },
+    {
+      "revision_id": "1274",
+      "kind": "ins",
+      "symbol_text": "t"
+    },
+    {
+      "revision_id": "1291",
+      "kind": "ins",
+      "symbol_text": "⊤"
+    },
+    {
+      "revision_id": "1297",
+      "kind": "ins",
+      "symbol_text": "pijeref,q"
+    },
+    {
+      "revision_id": "1299",
+      "kind": "ins",
+      "symbol_text": "e"
+    },
+    {
+      "revision_id": "1313",
+      "kind": "ins",
+      "symbol_text": "Sij=HijS"
+    },
+    {
+      "revision_id": "1315",
+      "kind": "ins",
+      "symbol_text": "Cij=HijC"
+    },
+    {
+      "revision_id": "1325",
+      "kind": "ins",
+      "symbol_text": "ref"
+    },
+    {
+      "revision_id": "1325",
+      "kind": "ins",
+      "symbol_text": "Gij"
+    },
+    {
+      "revision_id": "1325",
+      "kind": "ins",
+      "symbol_text": "stateij"
+    },
+    {
+      "revision_id": "1326",
+      "kind": "ins",
+      "symbol_text": "F"
+    },
+    {
+      "revision_id": "1328",
+      "kind": "ins",
+      "symbol_text": "Fij"
+    },
+    {
+      "revision_id": "1333",
+      "kind": "ins",
+      "symbol_text": "Gij"
+    },
+    {
+      "revision_id": "1338",
+      "kind": "ins",
+      "symbol_text": "mije"
+    },
+    {
+      "revision_id": "1338",
+      "kind": "ins",
+      "symbol_text": "Gij"
+    },
+    {
+      "revision_id": "1338",
+      "kind": "ins",
+      "symbol_text": "mije"
+    },
+    {
+      "revision_id": "1338",
+      "kind": "ins",
+      "symbol_text": "Gij"
+    },
+    {
+      "revision_id": "1347",
+      "kind": "ins",
+      "symbol_text": "vijref"
+    },
+    {
+      "revision_id": "1349",
+      "kind": "ins",
+      "symbol_text": "Gij=1"
+    },
+    {
+      "revision_id": "1357",
+      "kind": "ins",
+      "symbol_text": "vij=⟨vijref,vijrel,vijdep⟩"
+    },
+    {
+      "revision_id": "1359",
+      "kind": "ins",
+      "symbol_text": "vijref"
+    },
+    {
+      "revision_id": "1361",
+      "kind": "ins",
+      "symbol_text": "vijrel"
+    },
+    {
+      "revision_id": "1363",
+      "kind": "ins",
+      "symbol_text": "vijdep"
+    },
+    {
+      "revision_id": "1369",
+      "kind": "ins",
+      "symbol_text": "vijref=1"
+    },
+    {
+      "revision_id": "1371",
+      "kind": "ins",
+      "symbol_text": "mije=1"
+    },
+    {
+      "revision_id": "1375",
+      "kind": "ins",
+      "symbol_text": "rije"
+    },
+    {
+      "revision_id": "1377",
+      "kind": "ins",
+      "symbol_text": "vijrel=1"
+    },
+    {
+      "revision_id": "1386",
+      "kind": "ins",
+      "symbol_text": "vijdep=1"
+    },
+    {
+      "revision_id": "1413",
+      "kind": "ins",
+      "symbol_text": "vij"
+    },
+    {
+      "revision_id": "1418",
+      "kind": "ins",
+      "symbol_text": "Enc(Fij)"
+    },
+    {
+      "revision_id": "1420",
+      "kind": "ins",
+      "symbol_text": "Sij"
+    },
+    {
+      "revision_id": "1422",
+      "kind": "ins",
+      "symbol_text": "Cij"
+    },
+    {
+      "revision_id": "1424",
+      "kind": "ins",
+      "symbol_text": "Gij"
+    },
+    {
+      "revision_id": "1428",
+      "kind": "ins",
+      "symbol_text": "k"
+    },
+    {
+      "revision_id": "1429",
+      "kind": "ins",
+      "symbol_text": "k=0"
+    },
+    {
+      "revision_id": "1429",
+      "kind": "ins",
+      "symbol_text": "hij(k)"
+    },
+    {
+      "revision_id": "1429",
+      "kind": "ins",
+      "symbol_text": "Fij(k)"
+    },
+    {
+      "revision_id": "1429",
+      "kind": "ins",
+      "symbol_text": "vij(k)"
+    },
+    {
+      "revision_id": "1429",
+      "kind": "ins",
+      "symbol_text": "bij(k)"
+    },
+    {
+      "revision_id": "1429",
+      "kind": "ins",
+      "symbol_text": "errij(k)"
+    },
+    {
+      "revision_id": "1429",
+      "kind": "ins",
+      "symbol_text": "k"
+    },
+    {
+      "revision_id": "1429",
+      "kind": "ins",
+      "symbol_text": "hij"
+    },
+    {
+      "revision_id": "1436",
+      "kind": "ins",
+      "symbol_text": "Wc"
+    },
+    {
+      "revision_id": "1438",
+      "kind": "ins",
+      "symbol_text": "bc"
+    },
+    {
+      "revision_id": "1443",
+      "kind": "ins",
+      "symbol_text": "WΔ"
+    },
+    {
+      "revision_id": "1443",
+      "kind": "ins",
+      "symbol_text": "bΔ"
+    },
+    {
+      "revision_id": "1443",
+      "kind": "ins",
+      "symbol_text": "ProjC"
+    },
+    {
+      "revision_id": "1444",
+      "kind": "ins",
+      "symbol_text": "cij(k)"
+    },
+    {
+      "revision_id": "1444",
+      "kind": "ins",
+      "symbol_text": "d"
+    },
+    {
+      "revision_id": "1444",
+      "kind": "ins",
+      "symbol_text": "gij(k)"
+    },
+    {
+      "revision_id": "1444",
+      "kind": "ins",
+      "symbol_text": "d"
+    },
+    {
+      "revision_id": "1444",
+      "kind": "ins",
+      "symbol_text": "Δhij(k)"
+    },
+    {
+      "revision_id": "1444",
+      "kind": "ins",
+      "symbol_text": "d"
+    },
+    {
+      "revision_id": "1444",
+      "kind": "ins",
+      "symbol_text": "gije"
+    },
+    {
+      "revision_id": "1450",
+      "kind": "ins",
+      "symbol_text": "n"
+    },
+    {
+      "revision_id": "1450",
+      "kind": "ins",
+      "symbol_text": "i=1,…,n"
+    },
+    {
+      "revision_id": "1450",
+      "kind": "ins",
+      "symbol_text": "Iok"
+    },
+    {
+      "revision_id": "1450",
+      "kind": "ins",
+      "symbol_text": "Ino"
+    },
+    {
+      "revision_id": "1450",
+      "kind": "ins",
+      "symbol_text": "Ireview"
+    },
+    {
+      "revision_id": "1450",
+      "kind": "ins",
+      "symbol_text": "ai"
+    },
+    {
+      "revision_id": "1450",
+      "kind": "ins",
+      "symbol_text": "i"
+    },
+    {
+      "revision_id": "1450",
+      "kind": "ins",
+      "symbol_text": "Li"
+    },
+    {
+      "revision_id": "1450",
+      "kind": "ins",
+      "symbol_text": "xi"
+    },
+    {
+      "revision_id": "1457",
+      "kind": "ins",
+      "symbol_text": "Li=+∞"
+    },
+    {
+      "revision_id": "1462",
+      "kind": "ins",
+      "symbol_text": "xi=ai"
+    },
+    {
+      "revision_id": "1464",
+      "kind": "ins",
+      "symbol_text": "Ireview"
+    },
+    {
+      "revision_id": "1469",
+      "kind": "ins",
+      "symbol_text": "Amax"
+    },
+    {
+      "revision_id": "1473",
+      "kind": "ins",
+      "symbol_text": "min(Aclaim,Amax)"
+    },
+    {
+      "revision_id": "1478",
+      "kind": "ins",
+      "symbol_text": "Amax"
+    },
+    {
+      "revision_id": "1494",
+      "kind": "ins",
+      "symbol_text": "Ano"
+    },
+    {
+      "revision_id": "1497",
+      "kind": "ins",
+      "symbol_text": "B"
+    },
+    {
+      "revision_id": "1497",
+      "kind": "ins",
+      "symbol_text": "Amax"
+    },
+    {
+      "revision_id": "1499",
+      "kind": "ins",
+      "symbol_text": "T=⟨u1,…,uNT⟩"
+    },
+    {
+      "revision_id": "1501",
+      "kind": "ins",
+      "symbol_text": "NT"
+    },
+    {
+      "revision_id": "1502",
+      "kind": "ins",
+      "symbol_text": "s"
+    },
+    {
+      "revision_id": "1502",
+      "kind": "ins",
+      "symbol_text": "us=⟨s,ops,ins,outs,times⟩"
+    },
+    {
+      "revision_id": "1502",
+      "kind": "ins",
+      "symbol_text": "s"
+    },
+    {
+      "revision_id": "1504",
+      "kind": "ins",
+      "symbol_text": "ops"
+    },
+    {
+      "revision_id": "1507",
+      "kind": "ins",
+      "symbol_text": "ins"
+    },
+    {
+      "revision_id": "1510",
+      "kind": "ins",
+      "symbol_text": "outs"
+    },
+    {
+      "revision_id": "1513",
+      "kind": "ins",
+      "symbol_text": "times"
+    },
+    {
+      "revision_id": "1540",
+      "kind": "ins",
+      "symbol_text": "i"
+    },
+    {
+      "revision_id": "1540",
+      "kind": "ins",
+      "symbol_text": "j"
+    },
+    {
+      "revision_id": "1540",
+      "kind": "ins",
+      "symbol_text": "e"
+    },
+    {
+      "revision_id": "1546",
+      "kind": "ins",
+      "symbol_text": "yijeref,q∈{0,1}"
+    },
+    {
+      "revision_id": "1548",
+      "kind": "ins",
+      "symbol_text": "q∈{S,C}"
+    },
+    {
+      "revision_id": "1548",
+      "kind": "ins",
+      "symbol_text": "Fij*"
+    },
+    {
+      "revision_id": "1549",
+      "kind": "ins",
+      "symbol_text": "F*"
+    },
+    {
+      "revision_id": "1551",
+      "kind": "ins",
+      "symbol_text": "Fij*"
+    },
+    {
+      "revision_id": "1553",
+      "kind": "ins",
+      "symbol_text": "yije"
+    },
+    {
+      "revision_id": "1555",
+      "kind": "ins",
+      "symbol_text": "yijeref,q"
+    },
+    {
+      "revision_id": "1558",
+      "kind": "ins",
+      "symbol_text": "ω"
+    },
+    {
+      "revision_id": "1558",
+      "kind": "ins",
+      "symbol_text": "Fω*"
+    },
+    {
+      "revision_id": "1558",
+      "kind": "ins",
+      "symbol_text": "Bω*"
+    },
+    {
+      "revision_id": "1572",
+      "kind": "ins",
+      "symbol_text": "ρrel"
+    },
+    {
+      "revision_id": "1576",
+      "kind": "ins",
+      "symbol_text": "ρrel‖hij‖2"
+    },
+    {
+      "revision_id": "1576",
+      "kind": "ins",
+      "symbol_text": "∇hijJerr"
+    },
+    {
+      "revision_id": "1576",
+      "kind": "ins",
+      "symbol_text": "‖·‖2"
+    },
+    {
+      "revision_id": "1580",
+      "kind": "ins",
+      "symbol_text": "10-8"
+    },
+    {
+      "revision_id": "1580",
+      "kind": "ins",
+      "symbol_text": "h̃ij"
+    },
+    {
+      "revision_id": "1580",
+      "kind": "ins",
+      "symbol_text": "δij"
+    },
+    {
+      "revision_id": "1608",
+      "kind": "ins",
+      "symbol_text": "B"
+    },
+    {
+      "revision_id": "1610",
+      "kind": "ins",
+      "symbol_text": "T"
+    },
+    {
+      "revision_id": "1662",
+      "kind": "ins",
+      "symbol_text": "vijrel"
+    },
+    {
+      "revision_id": "1705",
+      "kind": "ins",
+      "symbol_text": "1×10-5"
+    },
+    {
+      "revision_id": "1147",
+      "kind": "del",
+      "symbol_text": "F"
+    },
+    {
+      "revision_id": "1157",
+      "kind": "del",
+      "symbol_text": "X"
+    },
+    {
+      "revision_id": "1159",
+      "kind": "del",
+      "symbol_text": "E"
+    },
+    {
+      "revision_id": "1161",
+      "kind": "del",
+      "symbol_text": "P"
+    },
+    {
+      "revision_id": "1179",
+      "kind": "del",
+      "symbol_text": "e=⟨eid,rawe,typee,texte⟩"
+    },
+    {
+      "revision_id": "1187",
+      "kind": "del",
+      "symbol_text": "P"
+    },
+    {
+      "revision_id": "1190",
+      "kind": "del",
+      "symbol_text": "pj"
+    },
+    {
+      "revision_id": "1240",
+      "kind": "del",
+      "symbol_text": "m"
+    },
+    {
+      "revision_id": "1257",
+      "kind": "del",
+      "symbol_text": "πije"
+    },
+    {
+      "revision_id": "1284",
+      "kind": "del",
+      "symbol_text": "Δ"
+    },
+    {
+      "revision_id": "1296",
+      "kind": "del",
+      "symbol_text": "T"
+    },
+    {
+      "revision_id": "1312",
+      "kind": "del",
+      "symbol_text": "Sij"
+    },
+    {
+      "revision_id": "1314",
+      "kind": "del",
+      "symbol_text": "Cij"
+    },
+    {
+      "revision_id": "1316",
+      "kind": "del",
+      "symbol_text": "HijS"
+    },
+    {
+      "revision_id": "1318",
+      "kind": "del",
+      "symbol_text": "HijC"
+    },
+    {
+      "revision_id": "1327",
+      "kind": "del",
+      "symbol_text": "Gij"
+    },
+    {
+      "revision_id": "1346",
+      "kind": "del",
+      "symbol_text": "vref"
+    },
+    {
+      "revision_id": "1348",
+      "kind": "del",
+      "symbol_text": "G=1"
+    },
+    {
+      "revision_id": "1356",
+      "kind": "del",
+      "symbol_text": "vij=⟨vref,vrel,vdep⟩"
+    },
+    {
+      "revision_id": "1358",
+      "kind": "del",
+      "symbol_text": "vref"
+    },
+    {
+      "revision_id": "1360",
+      "kind": "del",
+      "symbol_text": "vrel"
+    },
+    {
+      "revision_id": "1362",
+      "kind": "del",
+      "symbol_text": "vdep"
+    },
+    {
+      "revision_id": "1368",
+      "kind": "del",
+      "symbol_text": "vref=1"
+    },
+    {
+      "revision_id": "1370",
+      "kind": "del",
+      "symbol_text": "m=1"
+    },
+    {
+      "revision_id": "1376",
+      "kind": "del",
+      "symbol_text": "vrel=1"
+    },
+    {
+      "revision_id": "1389",
+      "kind": "del",
+      "symbol_text": "vdep=1"
+    },
+    {
+      "revision_id": "1417",
+      "kind": "del",
+      "symbol_text": "Enc"
+    },
+    {
+      "revision_id": "1417",
+      "kind": "del",
+      "symbol_text": "Fij"
+    },
+    {
+      "revision_id": "1419",
+      "kind": "del",
+      "symbol_text": "S"
+    },
+    {
+      "revision_id": "1421",
+      "kind": "del",
+      "symbol_text": "C"
+    },
+    {
+      "revision_id": "1423",
+      "kind": "del",
+      "symbol_text": "G"
+    },
+    {
+      "revision_id": "1430",
+      "kind": "del",
+      "symbol_text": "LN"
+    },
+    {
+      "revision_id": "1432",
+      "kind": "del",
+      "symbol_text": "tanh"
+    },
+    {
+      "revision_id": "1435",
+      "kind": "del",
+      "symbol_text": "W"
+    },
+    {
+      "revision_id": "1437",
+      "kind": "del",
+      "symbol_text": "b"
+    },
+    {
+      "revision_id": "1468",
+      "kind": "del",
+      "symbol_text": "K"
+    },
+    {
+      "revision_id": "1472",
+      "kind": "del",
+      "symbol_text": "min(Aclaim,K)"
+    },
+    {
+      "revision_id": "1477",
+      "kind": "del",
+      "symbol_text": "K"
+    },
+    {
+      "revision_id": "1479",
+      "kind": "del",
+      "symbol_text": "Amax"
+    },
+    {
+      "revision_id": "1484",
+      "kind": "del",
+      "symbol_text": "ai"
+    },
+    {
+      "revision_id": "1493",
+      "kind": "del",
+      "symbol_text": "Ano"
+    },
+    {
+      "revision_id": "1498",
+      "kind": "del",
+      "symbol_text": "T=⟨u1,…,um⟩"
+    },
+    {
+      "revision_id": "1500",
+      "kind": "del",
+      "symbol_text": "us=⟨s,ops,ins,outs,times⟩"
+    },
+    {
+      "revision_id": "1503",
+      "kind": "del",
+      "symbol_text": "s"
+    },
+    {
+      "revision_id": "1506",
+      "kind": "del",
+      "symbol_text": "ops"
+    },
+    {
+      "revision_id": "1509",
+      "kind": "del",
+      "symbol_text": "ins"
+    },
+    {
+      "revision_id": "1512",
+      "kind": "del",
+      "symbol_text": "outs"
+    },
+    {
+      "revision_id": "1514",
+      "kind": "del",
+      "symbol_text": "times"
+    },
+    {
+      "revision_id": "1541",
+      "kind": "del",
+      "symbol_text": "aije"
+    },
+    {
+      "revision_id": "1541",
+      "kind": "del",
+      "symbol_text": "F*"
+    },
+    {
+      "revision_id": "1541",
+      "kind": "del",
+      "symbol_text": "y"
+    },
+    {
+      "revision_id": "1547",
+      "kind": "del",
+      "symbol_text": "a"
+    },
+    {
+      "revision_id": "1552",
+      "kind": "del",
+      "symbol_text": "y"
+    },
+    {
+      "revision_id": "1554",
+      "kind": "del",
+      "symbol_text": "a"
+    },
+    {
+      "revision_id": "1568",
+      "kind": "del",
+      "symbol_text": "ρ"
+    },
+    {
+      "revision_id": "1571",
+      "kind": "del",
+      "symbol_text": "∇"
+    },
+    {
+      "revision_id": "1574",
+      "kind": "del",
+      "symbol_text": "∥·∥2"
+    },
+    {
+      "revision_id": "1579",
+      "kind": "del",
+      "symbol_text": "h̃ij"
+    },
+    {
+      "revision_id": "1585",
+      "kind": "del",
+      "symbol_text": "h"
+    },
+    {
+      "revision_id": "1593",
+      "kind": "del",
+      "symbol_text": "v"
+    },
+    {
+      "revision_id": "1607",
+      "kind": "del",
+      "symbol_text": "B"
+    },
+    {
+      "revision_id": "1609",
+      "kind": "del",
+      "symbol_text": "T"
+    },
+    {
+      "revision_id": "1661",
+      "kind": "del",
+      "symbol_text": "vrel"
+    },
+    {
+      "revision_id": "1669",
+      "kind": "del",
+      "symbol_text": "q"
+    },
+    {
+      "revision_id": "1669",
+      "kind": "del",
+      "symbol_text": "k"
+    },
+    {
+      "revision_id": "1669",
+      "kind": "del",
+      "symbol_text": "v"
+    },
+    {
+      "revision_id": "1669",
+      "kind": "del",
+      "symbol_text": "o"
+    },
+    {
+      "revision_id": "1724",
+      "kind": "del",
+      "symbol_text": "LSFT=0.25LFLAG+0.25Lamount+0.50Lrest"
+    }
+  ],
+  "source_sha256_after": "42e71d714df48db6066c4d433ec7a96b4931a03a840e1fd2cfad73a908275a11",
+  "delivery": "/mnt/public/zhouyibo/模型训练/01_专利文档/11.3-一稿-周奕博修订_字母补全版_20261105.docx",
+  "application_open_save_check": "passed",
+  "path_symbols_verified_after_application_open_save": true,
+  "track_revisions_enabled": true
+}

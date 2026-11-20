@@ -1,0 +1,171 @@
+{
+  "source": "/mnt/public/zhouyibo/模型训练/01_专利文档/11.9-二稿-一种基于审计过程数据的报销审计系统及方法(1).docx",
+  "backup": "/mnt/public/zhouyibo/模型训练/专利核查意见_20261110/源文件修改前备份/11.9-二稿-一种基于审计过程数据的报销审计系统及方法(1).docx",
+  "draft": "/mnt/public/zhouyibo/模型训练/专利核查意见_20261110/11.9二稿_周奕博最小修订_校验稿.docx",
+  "sha_before": "baabb28b317046f9c07f7012e998aba2f88992fcd7f0790e544ab28e8fe0cce0",
+  "modified_paragraphs": [
+    31,
+    81,
+    98,
+    200,
+    202,
+    203,
+    204,
+    207,
+    208,
+    230,
+    232
+  ],
+  "previous_revisions_preserved": 8,
+  "new_revision_records": 60,
+  "native_math_objects_preserved": 355,
+  "reject_all_restores_original_reading": true,
+  "other_parts_including_images_unchanged": true,
+  "track_revisions_enabled": true,
+  "author": "周奕博",
+  "text_edits": [
+    {
+      "paragraph": 31,
+      "category": "金额约束",
+      "before": "适用上限已确认时，取分项申请金额与适用上限中的较小值作为截断金额",
+      "after": "适用上限及材料支持金额已确认时，取分项申请金额、适用上限和材料支持金额中的最小值作为截断金额"
+    },
+    {
+      "paragraph": 31,
+      "category": "金额约束",
+      "before": "政策明确不设上限时，截断金额取分项申请金额",
+      "after": "政策明确不设上限时，截断金额取分项申请金额与已确认材料支持金额中的较小值"
+    },
+    {
+      "paragraph": 31,
+      "category": "拒绝优先级",
+      "before": "适用上限因必要信息未决而待确认时，计算中暂取分项申请金额，并将相应费用单元划入待复核集合",
+      "after": "适用上限或材料支持金额因必要信息未决而待确认时，计算中按已确认约束截断分项申请金额；已有明确拒绝依据的费用单元保持不可报销状态，其余待确认单元划入待复核集合"
+    },
+    {
+      "paragraph": 98,
+      "category": "金额约束",
+      "before": "适用上限已确认时，取分项申请金额与适用上限中的较小值作为截断金额",
+      "after": "适用上限及材料支持金额已确认时，取分项申请金额、适用上限和材料支持金额中的最小值作为截断金额"
+    },
+    {
+      "paragraph": 98,
+      "category": "金额约束",
+      "before": "政策明确不设上限时，截断金额取分项申请金额",
+      "after": "政策明确不设上限时，截断金额取分项申请金额与已确认材料支持金额中的较小值"
+    },
+    {
+      "paragraph": 98,
+      "category": "拒绝优先级",
+      "before": "适用上限因必要信息未决而待确认时，计算中暂取分项申请金额，并将相应费用单元划入待复核集合",
+      "after": "适用上限或材料支持金额因必要信息未决而待确认时，计算中按已确认约束截断分项申请金额；已有明确拒绝依据的费用单元保持不可报销状态，其余待确认单元划入待复核集合"
+    },
+    {
+      "paragraph": 81,
+      "category": "缺口定义",
+      "before": "政策条件所需的全部必要信息角色是否均已从证据中取得操作数",
+      "after": "政策条件所需的全部必要信息角色是否均已从证据中取得操作数，且执行条件所需的类型、币种、日期解释及规则适用信息是否已确认"
+    },
+    {
+      "paragraph": 81,
+      "category": "缺口定义",
+      "before": "必要信息缺口标记在必要信息尚未取得时取一，取得时取零",
+      "after": "必要信息缺口标记在必要信息尚未取得或上述执行信息未确认时取一，均已取得并确认时取零"
+    },
+    {
+      "paragraph": 81,
+      "category": "缺口定义",
+      "before": "区分材料缺失和模型尚未读出信息",
+      "after": "区分材料缺失、读取失败和解释歧义"
+    },
+    {
+      "paragraph": 207,
+      "category": "金额约束",
+      "before": "为按已确认适用上限截断后的金额",
+      "after": "为按已确认适用上限及材料支持金额截断后的金额"
+    },
+    {
+      "paragraph": 208,
+      "category": "金额约束",
+      "before": "并令",
+      "after": "，将经核验材料支持的金额记为M_i，并令"
+    },
+    {
+      "paragraph": 208,
+      "category": "拒绝优先级",
+      "before": "适用上限因必要信息未决而待确认时，暂取",
+      "after": "适用上限或材料支持金额因必要信息未决而待确认时，待确认项以正无穷作计算占位，仍按"
+    },
+    {
+      "paragraph": 208,
+      "category": "拒绝优先级",
+      "before": "并将相应费用单元划入",
+      "after": "计算截断金额，并将无明确拒绝依据的费用单元划入"
+    },
+    {
+      "paragraph": 208,
+      "category": "拒绝优先级",
+      "before": "。各分支采用上述明确取值",
+      "after": "；已明确拒绝的单元仍归入不可报销集合。各分支采用上述明确取值"
+    },
+    {
+      "paragraph": 230,
+      "category": "概率符号定义",
+      "before": "依次对应满足、不满足、证据不足与事实矛盾，非负且和为",
+      "after": "其中S、C分别为当前条件的支持强度与冲突强度的简写；四个分量依次对应满足、不满足、证据不足与事实矛盾，非负且和为"
+    }
+  ],
+  "math_edits": [
+    {
+      "paragraph": 200,
+      "before": "v",
+      "after": "V",
+      "category": "错误向量符号统一"
+    },
+    {
+      "paragraph": 202,
+      "before": "v",
+      "after": "V",
+      "category": "错误向量符号统一"
+    },
+    {
+      "paragraph": 203,
+      "before": "v",
+      "after": "V",
+      "category": "错误向量符号统一"
+    },
+    {
+      "paragraph": 204,
+      "before": "v",
+      "after": "V",
+      "category": "错误向量符号统一"
+    },
+    {
+      "paragraph": 204,
+      "before": "v",
+      "after": "V",
+      "category": "错误向量符号统一"
+    },
+    {
+      "paragraph": 232,
+      "before": "v",
+      "after": "V",
+      "category": "错误向量符号统一"
+    },
+    {
+      "paragraph": 208,
+      "before": "x_i=min(a_i,L_i)",
+      "after": "x_i=min(a_i,L_i,M_i)",
+      "category": "金额约束"
+    },
+    {
+      "paragraph": 208,
+      "before": "x_i=a_i",
+      "after": "x_i=min(a_i,L_i,M_i)",
+      "category": "已确认约束保留"
+    }
+  ],
+  "source_updated": true,
+  "sha_after": "ab0a453981827151461ba988c224202146c4f764fa1d072cfd1fe3faa9a154b9",
+  "application_open_and_pdf_export_passed": true
+}

@@ -1,0 +1,12 @@
+{
+  "sha": "pinned",
+  "siblings": [
+    {
+      "rfilename": "weights.safetensors",
+      "size": 2097162,
+      "lfs": {
+        "sha256": "079b1a73425a9f22653b8fb7ec70dd92f3c969801cd3c5deac3ca6c4215645cb"
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "verified_at": "2026-10-27T14:45:57.481108+08:00",
+  "scope": "delivered_three_component_checkpoint_and_reader_adapter",
+  "files": [
+    {
+      "path": "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/README.md",
+      "bytes": 550,
+      "sha256": "a0607d14c188451958cc9428de4ef818ff59847ab275f62a712003af01d7855f"
+    },
+    {
+      "path": "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/audit_heads.pt",
+      "bytes": 54299715,
+      "sha256": "00cc430d02f609c0da04ba911172188ad6cc164888a8d09c468365cca9a5dc78"
+    },
+    {
+      "path": "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/stage_B1.pt",
+      "bytes": 54233667,
+      "sha256": "b002791c8e1e99e645457695d27014ec150a13443582ed57002d9b8542cfc0ea"
+    },
+    {
+      "path": "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/stage_B2.pt",
+      "bytes": 54245087,
+      "sha256": "d4d858ad23e44f3cd0198a7591d6b249cbe7148d8f64b7888c692accfae9b78c"
+    },
+    {
+      "path": "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/stage_B3.pt",
+      "bytes": 54233731,
+      "sha256": "77f6bbaa8a1ade8911de18257ec104ad3a08efdd77fb8acbdde130c14dd6fb41"
+    },
+    {
+      "path": "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/stage_B4.pt",
+      "bytes": 54233731,
+      "sha256": "925ea7f29fa582600f0b13ae065ae700a92f22e87befa4db01e9aa4f072db8dd"
+    },
+    {
+      "path": "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/stage_C.pt",
+      "bytes": 83823273,
+      "sha256": "0825e7f6ba172696c47cb9951fb2dd357c0a5f70faf7aacff378cfa7ff6c8dc4"
+    },
+    {
+      "path": "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/training.jsonl",
+      "bytes": 15358,
+      "sha256": "69855bd3817a70185ae756c3a41b4d5eeca3a0b199eca266d5d90a7ee40d393f"
+    },
+    {
+      "path": "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/training_summary.json",
+      "bytes": 136188,
+      "sha256": "ede4e87286dd858bd7baf3500d36108cda416185cd27916e483182cf60fd262e"
+    },
+    {
+      "path": "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/reader_lora/README.md",
+      "bytes": 454,
+      "sha256": "ff2b8674afd59c0773260ecb122a2921f441879c3620c2ef0005bbbc300a622d"
+    },
+    {
+      "path": "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/reader_lora/adapter_config.json",
+      "bytes": 1060,
+      "sha256": "0f4df1d1e7dfc57bfe5be2775beb027bf3652caea187c7b698df581529aa572a"
+    },
+    {
+      "path": "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/reader_lora/adapter_model.safetensors",
+      "bytes": 20461568,
+      "sha256": "75c5c6acb531f3e56d91c00ace39f57dbbd2dd20168d3e13dd025e0c21779e85"
+    },
+    {
+      "path": "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/reader_lora/training_state.pt",
+      "bytes": 40987451,
+      "sha256": "a00b25523a6ae67b793a104d92bf95fa9f84ea714a3140293199c437924a9cf3"
+    }
+  ],
+  "checkpoint_unchanged": true,
+  "all_valid": true,
+  "base_model_included": false
+}

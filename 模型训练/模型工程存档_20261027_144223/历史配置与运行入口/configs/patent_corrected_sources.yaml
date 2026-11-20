@@ -1,0 +1,44 @@
+project:
+  seed: 3407
+data:
+  partitions: runs/patent_full_20261027/reviewed_full_v7/partitions.jsonl
+  minimum_approved_train_workflows: 20
+model:
+  name: Qwen/Qwen3-VL-8B-Instruct
+  revision: 0c351dd01ed87e9c1b53cbc748cba10e6187ff3b
+  hidden_size: 4096
+  dimension: 512
+  width: 256
+  role_slots: 8
+  freeze_base: true
+  attention_backend: sdpa
+  adapter_path: runs/patent_full_20261026/reader_lora_v3/best
+reader:
+  text_chunk_tokens: 2048
+  chunk_overlap_tokens: 128
+  total_input_tokens: 8192
+  image_max_pixels: 1048576
+  pdf_dpi: 120
+  condition_batch: 3
+heads:
+  learning_rate: 0.0001
+  weight_decay: 0.01
+  gradient_clip: 1.0
+correction:
+  max_rounds: 2
+  learning_rate: 0.0001
+  rho_relative: 0.03
+thresholds:
+  reference: 0.6
+  support: 0.7
+  conflict: 0.7
+  negative_contribution: -0.05
+  missed_contribution: 0.15
+fast_training:
+  epochs:
+    B1: 10
+    B2: 6
+    B3: 10
+    B4: 8
+    C: 12
+  patience: 3

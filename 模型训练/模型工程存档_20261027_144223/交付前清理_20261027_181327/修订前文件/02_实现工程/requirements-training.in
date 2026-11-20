@@ -1,0 +1,15 @@
+# Resolve and lock exact compatible versions on the target Linux/CUDA server.
+torch
+transformers
+# Compatible with the server's existing torchao 0.12 / NVIDIA PyTorch build.
+peft==0.18.1
+accelerate
+safetensors
+tokenizers
+Pillow
+openpyxl
+python-docx
+PyMuPDF
+pydantic
+PyYAML
+scikit-learn

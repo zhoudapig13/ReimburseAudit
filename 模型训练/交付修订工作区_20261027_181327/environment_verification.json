@@ -1,0 +1,8 @@
+{
+  "source_revision": "71476774f25bfc022ae926461c3e76ed9841fc48",
+  "torch": "2.8.0a0+34c6371d24.nv25.08",
+  "cuda": "13.0",
+  "dependency_list_matches": true,
+  "install_command_syntax": "passed",
+  "source_revision_reader": "passed"
+}

@@ -1,0 +1,8 @@
+{
+  "checked_at": "2026-10-27T14:20:32.599114+08:00",
+  "validation_workflows": 23,
+  "original_source_files": 163,
+  "mismatches": [],
+  "all_matched": true,
+  "dataset_run": "/mnt/public/zhouyibo/模型训练/02_实现工程/runs/patent_goal_20261027/source_lora_v3"
+}

@@ -1,0 +1,359 @@
+{
+  "total": 23,
+  "correct": 12,
+  "accuracy": 0.5217391304347826,
+  "details": [
+    {
+      "workflow_id": "1.2.1",
+      "correct": false,
+      "prediction": {
+        "FLAG": 0,
+        "max_legal": null,
+        "problem_reports": [
+          "shared_meal_participant_count: failed"
+        ]
+      },
+      "reference": {
+        "FLAG": 0,
+        "max_legal": "0"
+      }
+    },
+    {
+      "workflow_id": "1.2.2",
+      "correct": true,
+      "prediction": {
+        "FLAG": 0,
+        "max_legal": "0",
+        "problem_reports": [
+          "expense_is_a_meal: failed",
+          "merchant_city_matches_travel: failed"
+        ]
+      },
+      "reference": {
+        "FLAG": 0,
+        "max_legal": "0"
+      }
+    },
+    {
+      "workflow_id": "1.2.3",
+      "correct": true,
+      "prediction": {
+        "FLAG": 1,
+        "max_legal": "45.58",
+        "problem_reports": []
+      },
+      "reference": {
+        "FLAG": 1,
+        "max_legal": "45.58"
+      }
+    },
+    {
+      "workflow_id": "1.2.4",
+      "correct": true,
+      "prediction": {
+        "FLAG": 0,
+        "max_legal": "0",
+        "problem_reports": [
+          "required_receipt_fields_present: insufficient",
+          "meal_date_matches_documented_delay: insufficient"
+        ]
+      },
+      "reference": {
+        "FLAG": 0,
+        "max_legal": "0"
+      }
+    },
+    {
+      "workflow_id": "3.1.1",
+      "correct": true,
+      "prediction": {
+        "FLAG": 0,
+        "max_legal": "0",
+        "problem_reports": [
+          "all_submitted_routes_close_at_project_base: failed"
+        ]
+      },
+      "reference": {
+        "FLAG": 0,
+        "max_legal": "0"
+      }
+    },
+    {
+      "workflow_id": "3.1.2",
+      "correct": true,
+      "prediction": {
+        "FLAG": 0,
+        "max_legal": "0",
+        "problem_reports": [
+          "ticket_header_matches_purchase_route: failed"
+        ]
+      },
+      "reference": {
+        "FLAG": 0,
+        "max_legal": "0"
+      }
+    },
+    {
+      "workflow_id": "3.1.3",
+      "correct": true,
+      "prediction": {
+        "FLAG": 0,
+        "max_legal": "0",
+        "problem_reports": [
+          "all_submitted_routes_close_at_project_base: failed"
+        ]
+      },
+      "reference": {
+        "FLAG": 0,
+        "max_legal": "0"
+      }
+    },
+    {
+      "workflow_id": "3.1.4",
+      "correct": false,
+      "prediction": {
+        "FLAG": 0,
+        "max_legal": null,
+        "problem_reports": [
+          "original_receipt_requirements_e006: insufficient"
+        ]
+      },
+      "reference": {
+        "FLAG": 0,
+        "max_legal": "29.55"
+      }
+    },
+    {
+      "workflow_id": "3.1.5",
+      "correct": false,
+      "prediction": {
+        "FLAG": 0,
+        "max_legal": null,
+        "problem_reports": [
+          "original_receipt_requirements_e006: insufficient",
+          "original_receipt_requirements_e007: insufficient"
+        ]
+      },
+      "reference": {
+        "FLAG": 1,
+        "max_legal": "170"
+      }
+    },
+    {
+      "workflow_id": "3.2.1",
+      "correct": true,
+      "prediction": {
+        "FLAG": 0,
+        "max_legal": "0",
+        "problem_reports": [
+          "mandatory_transport_documents: insufficient"
+        ]
+      },
+      "reference": {
+        "FLAG": 0,
+        "max_legal": "0"
+      }
+    },
+    {
+      "workflow_id": "3.2.2",
+      "correct": false,
+      "prediction": {
+        "FLAG": 0,
+        "max_legal": null,
+        "problem_reports": [
+          "original_receipt_requirements_e005: insufficient"
+        ]
+      },
+      "reference": {
+        "FLAG": 1,
+        "max_legal": "12800"
+      }
+    },
+    {
+      "workflow_id": "3.2.3",
+      "correct": false,
+      "prediction": {
+        "FLAG": 0,
+        "max_legal": null,
+        "problem_reports": [
+          "original_receipt_requirements_e003: insufficient",
+          "original_receipt_requirements_e007: insufficient"
+        ]
+      },
+      "reference": {
+        "FLAG": 1,
+        "max_legal": "13952"
+      }
+    },
+    {
+      "workflow_id": "3.4.1",
+      "correct": false,
+      "prediction": {
+        "FLAG": 0,
+        "max_legal": null,
+        "problem_reports": [
+          "original_receipt_requirements_e005: insufficient",
+          "contract_meal_allowance_ceiling: insufficient"
+        ]
+      },
+      "reference": {
+        "FLAG": 0,
+        "max_legal": "6000"
+      }
+    },
+    {
+      "workflow_id": "3.4.2",
+      "correct": true,
+      "prediction": {
+        "FLAG": 1,
+        "max_legal": "6000.00",
+        "problem_reports": []
+      },
+      "reference": {
+        "FLAG": 1,
+        "max_legal": "6000"
+      }
+    },
+    {
+      "workflow_id": "4.2.1",
+      "correct": false,
+      "prediction": {
+        "FLAG": 0,
+        "max_legal": null,
+        "problem_reports": [
+          "original_receipt_requirements_e007: insufficient"
+        ]
+      },
+      "reference": {
+        "FLAG": 0,
+        "max_legal": "70"
+      }
+    },
+    {
+      "workflow_id": "4.2.2",
+      "correct": false,
+      "prediction": {
+        "FLAG": 0,
+        "max_legal": null,
+        "problem_reports": [
+          "original_receipt_requirements_e007: insufficient",
+          "original_receipt_requirements_e008: insufficient"
+        ]
+      },
+      "reference": {
+        "FLAG": 0,
+        "max_legal": "0"
+      }
+    },
+    {
+      "workflow_id": "4.2.3",
+      "correct": true,
+      "prediction": {
+        "FLAG": 0,
+        "max_legal": "0",
+        "problem_reports": [
+          "original_receipt_requirements_e008: insufficient",
+          "ticket_not_previously_reimbursed_e008: failed"
+        ]
+      },
+      "reference": {
+        "FLAG": 0,
+        "max_legal": "0"
+      }
+    },
+    {
+      "workflow_id": "4.2.4",
+      "correct": true,
+      "prediction": {
+        "FLAG": 0,
+        "max_legal": "0",
+        "problem_reports": [
+          "required_transport_receipt_type: failed"
+        ]
+      },
+      "reference": {
+        "FLAG": 0,
+        "max_legal": "0"
+      }
+    },
+    {
+      "workflow_id": "4.3.1",
+      "correct": false,
+      "prediction": {
+        "FLAG": 0,
+        "max_legal": null,
+        "problem_reports": [
+          "original_receipt_requirements_e007: insufficient",
+          "claim_form_matches_original_ticket: failed"
+        ]
+      },
+      "reference": {
+        "FLAG": 0,
+        "max_legal": "0"
+      }
+    },
+    {
+      "workflow_id": "4.3.2",
+      "correct": false,
+      "prediction": {
+        "FLAG": 0,
+        "max_legal": null,
+        "problem_reports": [
+          "original_receipt_requirements_e007: insufficient",
+          "claim_form_matches_original_ticket: failed"
+        ]
+      },
+      "reference": {
+        "FLAG": 0,
+        "max_legal": "0"
+      }
+    },
+    {
+      "workflow_id": "4.3.3",
+      "correct": false,
+      "prediction": {
+        "FLAG": 0,
+        "max_legal": null,
+        "problem_reports": [
+          "passenger_identity_e007: failed"
+        ]
+      },
+      "reference": {
+        "FLAG": 0,
+        "max_legal": "89.9"
+      }
+    },
+    {
+      "workflow_id": "4.3.4",
+      "correct": true,
+      "prediction": {
+        "FLAG": 0,
+        "max_legal": "0",
+        "problem_reports": [
+          "not_previously_reimbursed_e008: failed",
+          "not_previously_reimbursed_e009: failed"
+        ]
+      },
+      "reference": {
+        "FLAG": 0,
+        "max_legal": "0"
+      }
+    },
+    {
+      "workflow_id": "4.3.5",
+      "correct": true,
+      "prediction": {
+        "FLAG": 0,
+        "max_legal": "0",
+        "problem_reports": [
+          "required_transport_receipt_type: failed"
+        ]
+      },
+      "reference": {
+        "FLAG": 0,
+        "max_legal": "0"
+      }
+    }
+  ],
+  "predictions_sha256": "74a136265abc19a0f13e3a18311dc39e156767dde76307397b0458e7e5864d87"
+}

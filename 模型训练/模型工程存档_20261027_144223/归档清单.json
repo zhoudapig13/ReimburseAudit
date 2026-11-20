@@ -1,0 +1,233 @@
+{
+  "current_delivery_root": "/mnt/public/zhouyibo/模型训练",
+  "moves": [
+    {
+      "source": "02_实现工程/runs",
+      "archive": "02_实现工程/runs"
+    },
+    {
+      "source": "02_实现工程/models/报销审计_LoRA",
+      "archive": "02_实现工程/models/报销审计_LoRA"
+    },
+    {
+      "source": "02_实现工程/models/报销审计_三模块/checkpoint_20261026_2120",
+      "archive": "02_实现工程/models/报销审计_三模块/checkpoint_20261026_2120"
+    },
+    {
+      "source": "03_评测结果/三模块系统_23例全量检查_20261027",
+      "archive": "03_评测结果/三模块系统_23例全量检查_20261027"
+    },
+    {
+      "source": "03_评测结果/三模型准确率.csv",
+      "archive": "03_评测结果/三模型准确率.csv"
+    },
+    {
+      "source": "03_评测结果/三模型准确率.xlsx",
+      "archive": "03_评测结果/三模型准确率.xlsx"
+    },
+    {
+      "source": "03_评测结果/工程核验.json",
+      "archive": "03_评测结果/工程核验.json"
+    },
+    {
+      "source": "03_评测结果/模型完整性核验.json",
+      "archive": "03_评测结果/模型完整性核验.json"
+    },
+    {
+      "source": "03_评测结果/清理记录.json",
+      "archive": "03_评测结果/清理记录.json"
+    },
+    {
+      "source": "03_评测结果/评测来源.json",
+      "archive": "03_评测结果/评测来源.json"
+    },
+    {
+      "source": "02_实现工程/data/patent_confirmed_gap_reader_v15",
+      "archive": "02_实现工程/data/patent_confirmed_gap_reader_v15"
+    },
+    {
+      "source": "02_实现工程/data/patent_corrected_originals_v1",
+      "archive": "02_实现工程/data/patent_corrected_originals_v1"
+    },
+    {
+      "source": "02_实现工程/data/patent_meal_readings_v11",
+      "archive": "02_实现工程/data/patent_meal_readings_v11"
+    },
+    {
+      "source": "02_实现工程/data/patent_meal_readings_v12",
+      "archive": "02_实现工程/data/patent_meal_readings_v12"
+    },
+    {
+      "source": "02_实现工程/data/patent_rail_readings_v10",
+      "archive": "02_实现工程/data/patent_rail_readings_v10"
+    },
+    {
+      "source": "02_实现工程/data/patent_reader_actual_batch1",
+      "archive": "02_实现工程/data/patent_reader_actual_batch1"
+    },
+    {
+      "source": "02_实现工程/data/patent_reader_actual_v2",
+      "archive": "02_实现工程/data/patent_reader_actual_v2"
+    },
+    {
+      "source": "02_实现工程/data/patent_reader_actual_v2_selection.json",
+      "archive": "02_实现工程/data/patent_reader_actual_v2_selection.json"
+    },
+    {
+      "source": "02_实现工程/data/patent_reader_actual_v3",
+      "archive": "02_实现工程/data/patent_reader_actual_v3"
+    },
+    {
+      "source": "02_实现工程/data/patent_reader_actual_v4",
+      "archive": "02_实现工程/data/patent_reader_actual_v4"
+    },
+    {
+      "source": "02_实现工程/data/patent_reader_actual_v5",
+      "archive": "02_实现工程/data/patent_reader_actual_v5"
+    },
+    {
+      "source": "02_实现工程/data/patent_reader_pilot",
+      "archive": "02_实现工程/data/patent_reader_pilot"
+    },
+    {
+      "source": "02_实现工程/data/patent_reader_refresh_v16_train",
+      "archive": "02_实现工程/data/patent_reader_refresh_v16_train"
+    },
+    {
+      "source": "02_实现工程/data/patent_reader_refresh_v16_validation",
+      "archive": "02_实现工程/data/patent_reader_refresh_v16_validation"
+    },
+    {
+      "source": "02_实现工程/data/patent_reader_sft",
+      "archive": "02_实现工程/data/patent_reader_sft"
+    },
+    {
+      "source": "02_实现工程/data/patent_reviewed",
+      "archive": "02_实现工程/data/patent_reviewed"
+    },
+    {
+      "source": "02_实现工程/data/patent_shared_official_reader_remaining",
+      "archive": "02_实现工程/data/patent_shared_official_reader_remaining"
+    },
+    {
+      "source": "02_实现工程/data/patent_shared_official_reader_train",
+      "archive": "02_实现工程/data/patent_shared_official_reader_train"
+    },
+    {
+      "source": "02_实现工程/data/patent_shared_official_reader_validation",
+      "archive": "02_实现工程/data/patent_shared_official_reader_validation"
+    },
+    {
+      "source": "02_实现工程/data/patent_source_review",
+      "archive": "02_实现工程/data/patent_source_review"
+    },
+    {
+      "source": "02_实现工程/data/patent_source_review_v10",
+      "archive": "02_实现工程/data/patent_source_review_v10"
+    },
+    {
+      "source": "02_实现工程/data/patent_source_review_v11",
+      "archive": "02_实现工程/data/patent_source_review_v11"
+    },
+    {
+      "source": "02_实现工程/data/patent_source_review_v12",
+      "archive": "02_实现工程/data/patent_source_review_v12"
+    },
+    {
+      "source": "02_实现工程/data/patent_source_review_v13",
+      "archive": "02_实现工程/data/patent_source_review_v13"
+    },
+    {
+      "source": "02_实现工程/data/patent_source_review_v14",
+      "archive": "02_实现工程/data/patent_source_review_v14"
+    },
+    {
+      "source": "02_实现工程/data/patent_source_review_v15",
+      "archive": "02_实现工程/data/patent_source_review_v15"
+    },
+    {
+      "source": "02_实现工程/data/patent_source_review_v8",
+      "archive": "02_实现工程/data/patent_source_review_v8"
+    },
+    {
+      "source": "02_实现工程/data/patent_source_review_v9",
+      "archive": "02_实现工程/data/patent_source_review_v9"
+    },
+    {
+      "source": "02_实现工程/data/patent_structured_reads_v1",
+      "archive": "02_实现工程/data/patent_structured_reads_v1"
+    },
+    {
+      "source": "02_实现工程/data/patent_targeted_field_replay_v14",
+      "archive": "02_实现工程/data/patent_targeted_field_replay_v14"
+    },
+    {
+      "source": "02_实现工程/data/patent_targeted_reader_v14_retry_train",
+      "archive": "02_实现工程/data/patent_targeted_reader_v14_retry_train"
+    },
+    {
+      "source": "02_实现工程/data/patent_targeted_reader_v14_retry_validation",
+      "archive": "02_实现工程/data/patent_targeted_reader_v14_retry_validation"
+    },
+    {
+      "source": "02_实现工程/data/patent_train_reader_v6",
+      "archive": "02_实现工程/data/patent_train_reader_v6"
+    },
+    {
+      "source": "02_实现工程/data/patent_training_source_fixes_v9",
+      "archive": "02_实现工程/data/patent_training_source_fixes_v9"
+    },
+    {
+      "source": "02_实现工程/data/patent_validation_initial_selection.json",
+      "archive": "02_实现工程/data/patent_validation_initial_selection.json"
+    },
+    {
+      "source": "02_实现工程/data/patent_validation_policy_proposals_v1",
+      "archive": "02_实现工程/data/patent_validation_policy_proposals_v1"
+    },
+    {
+      "source": "02_实现工程/data/patent_validation_policy_proposals_v2",
+      "archive": "02_实现工程/data/patent_validation_policy_proposals_v2"
+    },
+    {
+      "source": "02_实现工程/data/patent_validation_policy_proposals_v3",
+      "archive": "02_实现工程/data/patent_validation_policy_proposals_v3"
+    },
+    {
+      "source": "02_实现工程/data/patent_validation_policy_proposals_v4",
+      "archive": "02_实现工程/data/patent_validation_policy_proposals_v4"
+    },
+    {
+      "source": "02_实现工程/data/patent_validation_reader_initial",
+      "archive": "02_实现工程/data/patent_validation_reader_initial"
+    },
+    {
+      "source": "02_实现工程/data/patent_validation_reader_v5",
+      "archive": "02_实现工程/data/patent_validation_reader_v5"
+    },
+    {
+      "source": "02_实现工程/data/patent_validation_reader_v6",
+      "archive": "02_实现工程/data/patent_validation_reader_v6"
+    },
+    {
+      "source": "02_实现工程/data/patent_verified_deletions_v1",
+      "archive": "02_实现工程/data/patent_verified_deletions_v1"
+    },
+    {
+      "source": "02_实现工程/data/patent_verified_deletions_v2",
+      "archive": "02_实现工程/data/patent_verified_deletions_v2"
+    },
+    {
+      "source": "02_实现工程/.pytest_cache",
+      "archive": "02_实现工程/.pytest_cache"
+    },
+    {
+      "source": "02_实现工程/.ruff_cache",
+      "archive": "02_实现工程/.ruff_cache"
+    },
+    {
+      "source": "02_实现工程/pytest-of-root",
+      "archive": "02_实现工程/pytest-of-root"
+    }
+  ]
+}

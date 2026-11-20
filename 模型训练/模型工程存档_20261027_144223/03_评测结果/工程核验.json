@@ -1,0 +1,26 @@
+{
+  "unit_tests": {
+    "command": "CUDA_VISIBLE_DEVICES=\"\" .venv/bin/python -m unittest discover -s tests -v",
+    "total": 124,
+    "passed": 123,
+    "skipped": 1,
+    "failed": 0,
+    "exit_code": 0
+  },
+  "document": {
+    "equation_objects": 352,
+    "accuracy_table": [
+      "26.1%",
+      "60.9%",
+      "26.1%"
+    ],
+    "pdf_pages": 16,
+    "guide_hash_synchronized": true
+  },
+  "data_splits": {
+    "train": 105,
+    "validation": 23,
+    "test": 23,
+    "workflow_id_sets_disjoint": true
+  }
+}

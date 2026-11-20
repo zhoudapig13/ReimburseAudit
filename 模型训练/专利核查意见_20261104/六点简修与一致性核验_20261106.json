@@ -1,0 +1,232 @@
+{
+  "source": "/mnt/public/zhouyibo/模型训练/01_专利文档/11.3-一稿-一种基于审计过程数据的报销审计系统及方法.docx",
+  "backup": "/mnt/public/zhouyibo/模型训练/专利核查意见_20261104/六点简修前备份_20261106/11.3-一稿-一种基于审计过程数据的报销审计系统及方法.docx",
+  "source_sha256_before": "42e71d714df48db6066c4d433ec7a96b4931a03a840e1fd2cfad73a908275a11",
+  "draft": "/mnt/public/zhouyibo/模型训练/专利核查意见_20261104/周奕博_六点简修校验稿_20261106.docx",
+  "delivery": "/mnt/public/zhouyibo/模型训练/01_专利文档/11.3-一稿-周奕博修订_一致性简修版_20261106.docx",
+  "checks": {
+    "six_requested_issues_resolved": true,
+    "training_scope_consistent": true,
+    "untouched_conditions_not_claimed_correct": true,
+    "metrics_described_as_optional_evaluation": true,
+    "evaluation_values_preserved": true,
+    "all_native_equations_unchanged": 203,
+    "reject_all_preserves_previous_original_reading": true,
+    "revision_author": "周奕博",
+    "new_revision_records": 80,
+    "revision_ids_unique": true,
+    "no_hidden_formula_revision_nesting": true
+  },
+  "edits": [
+    {
+      "paragraph": 231,
+      "category": "1_评价方法与结果区分",
+      "before": "验证材料读取、条件判断、文件引用、自然错误净修正及误改率，人工扰动恢复率单独报告。",
+      "after": "可采用材料读取准确率、条件判断准确率、引用准确率、自然错误净修正率及误改率等指标，评价系统各环节性能。"
+    },
+    {
+      "paragraph": 221,
+      "category": "2_整单答案用途",
+      "before": "整单答案监督沿用既有判定、最高金额和问题说明",
+      "after": "既有整单参考答案保留判定、最高金额和问题说明，用于条件级标签构建及整单结果评测"
+    },
+    {
+      "paragraph": 240,
+      "category": "3_流程示例",
+      "before": "为了说明上述系统及方法的有效性和可行性，下面结合一个具体案例展开说明。",
+      "after": "以下通过住宿费报销示例，说明系统的执行步骤、信息缺口处理及金额划分规则。"
+    },
+    {
+      "paragraph": 53,
+      "category": "4_旁路保证范围",
+      "before": "而不扰动其他已正确的审计条件",
+      "after": "，其他未触发校正的审计条件保持原有表示及结果"
+    },
+    {
+      "paragraph": 118,
+      "category": "4_旁路保证范围",
+      "before": "局部校正不扰动已正确条件",
+      "after": "局部校正仅作用于触发条件"
+    },
+    {
+      "paragraph": 118,
+      "category": "4_旁路保证范围",
+      "before": "已正确的其他条件不被重新生成改变",
+      "after": "未触发校正的其他条件沿用原有表示及结果"
+    },
+    {
+      "paragraph": 118,
+      "category": "4_旁路保证范围",
+      "before": "由此避免一处错误导致整份审计结果重新生成",
+      "after": "由此将重新计算限制在触发校正的条件范围内"
+    },
+    {
+      "paragraph": 245,
+      "category": "4_旁路保证范围",
+      "before": "其他无错误条件保持原结果",
+      "after": "其他未触发校正的条件保持原结果"
+    },
+    {
+      "paragraph": 117,
+      "category": "5_贡献核验机制",
+      "before": "使引用判断不仅依据语义相关性，还依据该证据对条件结论的实际影响",
+      "after": "使引用判断综合采用语义关系、材料贡献与必要信息覆盖信息"
+    },
+    {
+      "paragraph": 117,
+      "category": "5_贡献核验机制",
+      "before": "等效证据可相互替代时，材料贡献为零不被自动认定为无效引用",
+      "after": "等效证据通过信息覆盖与来源核验择一引用"
+    },
+    {
+      "paragraph": 117,
+      "category": "5_贡献核验机制",
+      "before": "从而在保留等效引用灵活性的同时，避免仅凭引用列表误判证据充分性",
+      "after": "在保留等效引用灵活性的同时，为证据充分性判断增加材料贡献和必要信息覆盖依据"
+    },
+    {
+      "paragraph": 224,
+      "category": "6_通用方案与本次实施",
+      "before": "第三阶段固定",
+      "after": "第三阶段训练局部校正子模块，可使用自然错误及经筛选的扰动错误样本。本次实施例采用经核验的自然错误反馈样本。可选的扰动样本构造方式如下：固定"
+    },
+    {
+      "paragraph": 104,
+      "category": "6_通用方案与本次实施",
+      "before": "固定报销申请数据",
+      "after": "局部校正训练使用自然错误样本，并可采用扰动错误样本作为补充；构造扰动样本时，固定报销申请数据"
+    },
+    {
+      "paragraph": 104,
+      "category": "6_通用方案与本次实施",
+      "before": "以恢复所述原正确事实校验数据中的关系、引用和状态为目标，训练局部校正参数",
+      "after": "对筛选通过的扰动错误样本，以恢复所述原正确事实校验数据中的关系、引用和状态为目标训练局部校正参数"
+    },
+    {
+      "paragraph": 227,
+      "category": "6_通用方案与本次实施",
+      "before": "自然错误及正确样本同时用于训练和验证纠错与误改情况",
+      "after": "可采用自然错误和正确条件分别评价纠错与误改情况"
+    },
+    {
+      "paragraph": 227,
+      "category": "6_通用方案与本次实施",
+      "before": "本实施例取0.03",
+      "after": "该可选分支取0.03"
+    },
+    {
+      "paragraph": 227,
+      "category": "6_通用方案与本次实施",
+      "before": "本实施例取",
+      "after": "该分支取"
+    },
+    {
+      "paragraph": 245,
+      "category": "3_流程示例",
+      "before": "从完整训练案例删除入住文件后",
+      "after": "在该示例中，若删除入住文件"
+    },
+    {
+      "paragraph": 245,
+      "category": "6_通用方案与本次实施",
+      "before": "内部表示扰动则保持",
+      "after": "采用可选扰动分支时，保持"
+    },
+    {
+      "paragraph": 162,
+      "category": "表述简化",
+      "before": "不能丢弃必要信息",
+      "after": "拆分后保留全部必要信息"
+    },
+    {
+      "paragraph": 94,
+      "category": "停止条件一致",
+      "before": "错误分量归零",
+      "after": "当前条件的错误向量为零"
+    },
+    {
+      "paragraph": 205,
+      "category": "停止条件一致",
+      "before": "错误分量归零",
+      "after": "错误向量为零"
+    },
+    {
+      "paragraph": 205,
+      "category": "表述简化",
+      "before": "停止后仍存在异常、必要信息未决或支持与冲突同时达标时进入人工复核；连续两轮不变触发停止，停止后存在的残余异常继续转入人工复核。",
+      "after": "停止后存在残余异常、必要信息未决或支持与冲突同时达标时，转入人工复核。"
+    },
+    {
+      "paragraph": 205,
+      "category": "表述简化",
+      "before": "开放文本条件按状态、依据和阈值判定是否可处理，不因不能程序比较而一律拒绝。",
+      "after": "开放文本条件结合语义状态、证据依据和阈值进入相应处理分支。"
+    },
+    {
+      "paragraph": 214,
+      "category": "表述简化",
+      "before": "缺材料按政策区分允许补件的待复核与明确不予报销的当前申请，不能统一判为拒绝。",
+      "after": "缺材料时，按政策分别进入补件复核或拒绝当前申请的处理分支。"
+    },
+    {
+      "paragraph": 216,
+      "category": "表述简化",
+      "before": "无须另行训练三个大语言模型",
+      "after": "三个神经模块在共享底座之上分别训练"
+    },
+    {
+      "paragraph": 220,
+      "category": "表述简化",
+      "before": "答案未提到某条件不等于该条件成立",
+      "after": "各条件标签依据原材料和政策逐项核验"
+    },
+    {
+      "paragraph": 220,
+      "category": "表述简化",
+      "before": "未标注替代材料不直接作为负例",
+      "after": "替代材料经等效关系与信息覆盖核验后确定监督标签"
+    },
+    {
+      "paragraph": 222,
+      "category": "表述简化",
+      "before": "引用头预测文件级引用，文本片段选择由读取模型与程序匹配辅助，不要求新增模块生成像素坐标或长篇审计答案。",
+      "after": "引用头负责文件级引用，文本片段选择由读取模型与程序匹配辅助。"
+    },
+    {
+      "paragraph": 222,
+      "category": "表述简化",
+      "before": "底座可冻结，材料读取有经核验问答时再进行可选监督微调（SFT）与LoRA；不以完整字段或位置标注作为必要前提。",
+      "after": "底座可冻结，经核验的读取问答可用于材料读取的监督微调（SFT）与LoRA适配。"
+    },
+    {
+      "paragraph": 223,
+      "category": "表述简化",
+      "before": "不只修改模型读取值而保留相矛盾原件。",
+      "after": "事实变化同步更新副本材料、读取操作数及依赖关系。"
+    },
+    {
+      "paragraph": 230,
+      "category": "表述简化",
+      "before": "不将贡献为零硬设为负例",
+      "after": "引用标签结合经核验的依据与覆盖关系确定"
+    },
+    {
+      "paragraph": 230,
+      "category": "表述简化",
+      "before": "未触发条件采用旁路，其表示保持是实现约束，无需恒零保持损失。",
+      "after": "未触发校正的条件通过旁路保持当前表示。"
+    },
+    {
+      "paragraph": 270,
+      "category": "效果与机制一致",
+      "before": "本发明使政策运算约束语义判断、证据引用可核验、局部错误可校正且金额守恒、路径可追溯。",
+      "after": "本发明将政策运算融入关系判断，通过材料贡献核验证据引用，按条件触发局部表示更新，并以确定性程序完成金额划分及路径记录。"
+    }
+  ],
+  "source_updated": true,
+  "source_sha256_after": "f8362d9f9b194e4333074e3c03855fe5e2510799731d611aa169a397bdf0a2e8",
+  "application_open_save_check": "passed",
+  "original_comments_and_images_unchanged": true,
+  "track_revisions_enabled": true,
+  "full_text_consistency_review_completed": true
+}

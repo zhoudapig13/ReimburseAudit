@@ -1,0 +1,7 @@
+{
+  "model": "test/model",
+  "revision": "pinned",
+  "local_path": "/mnt/public/zhouyibo/\u6a21\u578b\u8bad\u7ec3/02_\u5b9e\u73b0\u5de5\u7a0b/pytest-of-root/pytest-4/test_verified_resume_and_reten0/model",
+  "transport": "http_range",
+  "all_shard_sha256_verified": true
+}

@@ -1,0 +1,99 @@
+{
+  "archive": "/mnt/public/zhouyibo/模型工程存档_20261027_144223/交付前清理_20261027_181327",
+  "archived_paths": [
+    "02_实现工程/work",
+    "02_实现工程/data/patent_full",
+    "02_实现工程/data_raw/ReimburseBench/patent_variants",
+    "02_实现工程/data_raw/ReimburseBench/patent_variants_shared_official_0822",
+    "02_实现工程/data_raw/ReimburseBench/patent_variants_v2",
+    "02_实现工程/data_raw/ReimburseBench/.git",
+    "02_实现工程/.pytest_cache",
+    "02_实现工程/.ruff_cache",
+    "02_实现工程/audit_engine/__pycache__",
+    "02_实现工程/audit_engine/examples/__pycache__",
+    "02_实现工程/audit_engine/inference/__pycache__",
+    "02_实现工程/audit_engine/models/__pycache__",
+    "02_实现工程/audit_engine/policy/__pycache__",
+    "02_实现工程/audit_engine/readers/__pycache__",
+    "02_实现工程/audit_engine/training/__pycache__",
+    "02_实现工程/code/scripts/__pycache__",
+    "02_实现工程/tests/__pycache__"
+  ],
+  "archived_work_images": 26,
+  "work_images_unchanged": true,
+  "source_revision": "71476774f25bfc022ae926461c3e76ed9841fc48",
+  "text_changes": [
+    {
+      "file": "02_实现工程/data/patent_example/README.txt",
+      "before": "工程示例：合成案例及标签，用于核对字段和运行接口。正式训练使用data/patent_full中的原始业务材料及核验后的条件级标签。",
+      "after": "工程示例：本目录包含3个合成案例及配套标签，用于核对字段和运行接口。当前业务输入、监督和特征保存在data/三模块交付_20261027/，训练监督位于dataset/annotations.jsonl。"
+    },
+    {
+      "file": "02_实现工程/data/packed/pack_report.md",
+      "before": "当前参考目标均未批准用于三个新增神经部件的条件级监督。",
+      "after": "本包保存原始整单参考目标；三个神经模块的条件级监督保存在 `data/三模块交付_20261027/dataset/annotations.jsonl`。"
+    },
+    {
+      "file": "02_实现工程/data/packed/pack_report.md",
+      "before": "## 数据边界",
+      "after": "## 数据用途"
+    },
+    {
+      "file": "02_实现工程/data/packed/pack_report.md",
+      "before": "`reference_only` 表示可用于追溯和后续审核，不等于已批准的关系/引用训练标签。",
+      "after": "`reference_only` 保存原始参考目标；条件关系与引用监督使用经核验的条件级标签及有效掩码。"
+    },
+    {
+      "file": "02_实现工程/data/packed/pack_report.md",
+      "before": "SFT读取问答尚未生成；需要先解析材料并人工核验金额、日期、人员等事实。",
+      "after": "配套材料读取问答位于 `data/三模块交付_20261027/reader_qa/`，包含116条训练问答与4条验证问答，均绑定原始材料来源。"
+    },
+    {
+      "file": "02_实现工程/data/normalized_full/test_parse_report.md",
+      "before": "取得了部分内容，但仍需读取图片或检查公式。",
+      "after": "已取得结构化内容，关联图片读取或公式核验任务。"
+    },
+    {
+      "file": "02_实现工程/data/normalized_full/test_parse_report.md",
+      "before": "保留原图，不伪造 OCR 文本。",
+      "after": "保留原图及视觉读取入口。"
+    },
+    {
+      "file": "02_实现工程/data/normalized_full/train_parse_report.md",
+      "before": "取得了部分内容，但仍需读取图片或检查公式。",
+      "after": "已取得结构化内容，关联图片读取或公式核验任务。"
+    },
+    {
+      "file": "02_实现工程/data/normalized_full/train_parse_report.md",
+      "before": "保留原图，不伪造 OCR 文本。",
+      "after": "保留原图及视觉读取入口。"
+    },
+    {
+      "file": "02_实现工程/data/normalized_full/validation_parse_report.md",
+      "before": "取得了部分内容，但仍需读取图片或检查公式。",
+      "after": "已取得结构化内容，关联图片读取或公式核验任务。"
+    },
+    {
+      "file": "02_实现工程/data/normalized_full/validation_parse_report.md",
+      "before": "保留原图，不伪造 OCR 文本。",
+      "after": "保留原图及视觉读取入口。"
+    },
+    {
+      "file": "02_实现工程/data/splits/split_report.md",
+      "before": "感知哈希只适合筛查相似图片，不能单独证明两张票据同源。",
+      "after": "感知哈希筛选相似图片候选，同源关系结合原始票据与事件信息审核确认。"
+    },
+    {
+      "file": "02_实现工程/code/scripts/pack_training_data.py",
+      "before": "当前参考目标均未批准用于三个新增神经部件的条件级监督。",
+      "after": "本包保存原始整单参考目标；条件级监督经原材料和政策审核后独立保存。"
+    },
+    {
+      "file": "02_实现工程/code/scripts/prepare_patent_data.py",
+      "before": "default=Path(\"data/patent_full\")",
+      "after": "default=Path(\"work/prepared_dataset\")"
+    }
+  ],
+  "word_pdf_changed": false,
+  "formal_weights_changed": false
+}

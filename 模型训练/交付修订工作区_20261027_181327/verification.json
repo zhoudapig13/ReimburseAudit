@@ -1,0 +1,83 @@
+{
+  "checked_at": "2026-10-27T18:21:51.308435+08:00",
+  "status": "passed",
+  "checks": [
+    {
+      "item": "工作目录与测试缓存",
+      "result": "通过",
+      "detail": "工作产物和测试权重位于交付目录外；目录内无work、Git或工具缓存"
+    },
+    {
+      "item": "旧数据目录与入口",
+      "result": "通过",
+      "detail": "当前输入与198条监督均按三模块交付数据目录读取；合成示例说明同步"
+    },
+    {
+      "item": "数据阶段报告",
+      "result": "通过",
+      "detail": "打包、解析及划分报告使用当前用途和来源表述"
+    },
+    {
+      "item": "来源记录可移植性",
+      "result": "通过",
+      "detail": "来源记录使用工程相对路径；SOURCE_REVISION可独立读取"
+    },
+    {
+      "item": "原始材料与问答完整性",
+      "result": "通过",
+      "detail": "433份当前输入和问答所需材料逐份摘要一致；训练116条问答、验证4条"
+    },
+    {
+      "item": "环境安装与版本",
+      "result": "通过",
+      "detail": "指定NVIDIA镜像来源已核对；其他依赖与锁文件逐项一致；安装命令语法通过"
+    },
+    {
+      "item": "模型及基线结果保留",
+      "result": "通过",
+      "detail": "联合checkpoint、五阶段checkpoint和读取LoRA全部保留；Qwen与GLM基线数据一致"
+    },
+    {
+      "item": "Word与PDF图片",
+      "result": "通过",
+      "detail": "Word与PDF整份文件摘要不变，最后附图保持原样"
+    },
+    {
+      "item": "完整工程测试和联合推理",
+      "result": "通过",
+      "detail": "242项通过、1项跳过；23例逐例F/B/判定一致，联合准确率52.17%"
+    }
+  ],
+  "material_files_verified": 433,
+  "current_inputs": 67,
+  "approved_annotations": 198,
+  "reader_qa": {
+    "train": 116,
+    "validation": 4
+  },
+  "tests_passed": 242,
+  "tests_skipped": 1,
+  "correct": 12,
+  "total": 23,
+  "accuracy": 0.5217391304347826,
+  "module_calls": {
+    "relation": 462,
+    "contribution": 55,
+    "corrector": 32
+  },
+  "formal_weight_records_preserved": 9,
+  "baseline_data_unchanged": true,
+  "word_pdf_unchanged": true,
+  "last_figure_unchanged": true,
+  "source_revision": "71476774f25bfc022ae926461c3e76ed9841fc48",
+  "environment_install": {
+    "base_image": "nvcr.io/nvidia/pytorch:25.08-py3",
+    "source": "https://docs.nvidia.com/deeplearning/frameworks/pytorch-release-notes/rel-25-08.html",
+    "install_commands_syntax_verified": true,
+    "local_torch": "2.8.0a0+34c6371d24.nv25.08",
+    "local_cuda": "13.0",
+    "container_pull_performed": false
+  },
+  "inventory_files": 2345,
+  "logical_bytes": 800968995
+}

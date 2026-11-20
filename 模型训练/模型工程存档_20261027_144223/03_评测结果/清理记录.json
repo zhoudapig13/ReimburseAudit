@@ -1,0 +1,1470 @@
+{
+  "date": "2026-10-22",
+  "before_allocated_bytes": 114921947648,
+  "deleted": [
+    {
+      "path": "02_实现工程/models/InternVL3_5-8B-HF",
+      "reason": "未采用的对照模型下载",
+      "files": 37,
+      "logical_bytes": 254111517
+    },
+    {
+      "path": "02_实现工程/models/Qwen2.5-VL-7B-Instruct",
+      "reason": "未采用的对照模型下载",
+      "files": 441,
+      "logical_bytes": 12519496614
+    },
+    {
+      "path": "02_实现工程/models/Qwen3-VL-8B-Instruct/.cache",
+      "reason": "已核验完整权重对应的重复下载缓存",
+      "files": 17,
+      "logical_bytes": 1871880651
+    },
+    {
+      "path": "02_实现工程/models/Qwen3-VL-8B-Instruct/.range_parts",
+      "reason": "已核验完整权重对应的重复下载缓存",
+      "files": 526,
+      "logical_bytes": 17534358909
+    },
+    {
+      "path": "02_实现工程/models/GLM-4.1V-9B-Thinking/.range_parts",
+      "reason": "已核验完整权重对应的重复下载缓存",
+      "files": 619,
+      "logical_bytes": 20605617597
+    },
+    {
+      "path": "02_实现工程/models/GLM-4.1V-9B-Thinking/notebook.ipynb",
+      "reason": "下载附带的演示笔记本",
+      "files": 1,
+      "logical_bytes": 2537101
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/adjustments.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 19834
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/checkpoint_download.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 207746
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/compact_table_token_preflight.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 10724
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/controlled_perturbation",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 3,
+      "logical_bytes": 54196263
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/controller.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 3440
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/controller_state.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 233
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/full_validation_input_preflight.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 4093
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/image_source_overlap_audit.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 90
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/initial_training.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 8371
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/latest_observation.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 6312
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/lint.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 41
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/model_download.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 259
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/pilot_encode_0.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 4200
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/pilot_encode_1.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 4198
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/pilot_feature_merge.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 518
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/pilot_feature_plan.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 465
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/pilot_processor_preflight.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 118492
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/pilot_processor_preflight.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 812
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/policy_candidate_segmented",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 6,
+      "logical_bytes": 35015
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/policy_candidate_segmented.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 1764
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/policy_candidate_segmented4096",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 8,
+      "logical_bytes": 53864
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/policy_candidate_segmented4096.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 1800
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/policy_candidate_smoke",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 6,
+      "logical_bytes": 26975
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/policy_candidate_smoke.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 1766
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/policy_candidate_token_preflight.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 156
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/policy_proposals_controller.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 514
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/processes.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 2694
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/processor_report.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 535
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/qwen_image_repairs.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 1330
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/qwen_pilot_images.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 1458
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/qwen_pilot_images_v2.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 3593
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/random_fixture_features.pt",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 248241
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/random_heads",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 6,
+      "logical_bytes": 403870927
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/random_heads.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 1706
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/random_heads_with_perturbation",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 9,
+      "logical_bytes": 458085355
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/random_heads_with_perturbation.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 2415
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/reader_resolution_probe",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 6,
+      "logical_bytes": 11892
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/reader_resolution_probe.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 4228
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/reader_settlement_probe.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 3702
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/readiness",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 2,
+      "logical_bytes": 2406
+    },
+    {
+      "path": "02_实现工程/runs/bootstrap/unit_tests.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 11687
+    },
+    {
+      "path": "02_实现工程/runs/continuous_official_20261017",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 773,
+      "logical_bytes": 10449801827
+    },
+    {
+      "path": "02_实现工程/runs/continuous_official_training.lock",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 1,
+      "logical_bytes": 0
+    },
+    {
+      "path": "02_实现工程/runs/document_accuracy_table_20261021",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 5,
+      "logical_bytes": 1402420
+    },
+    {
+      "path": "02_实现工程/runs/document_revision_20261014",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 9,
+      "logical_bytes": 837218
+    },
+    {
+      "path": "02_实现工程/runs/document_revision_20261021",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 21,
+      "logical_bytes": 3373036
+    },
+    {
+      "path": "02_实现工程/runs/evaluation_export_20261019",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 3,
+      "logical_bytes": 392954
+    },
+    {
+      "path": "02_实现工程/runs/glm_format_adaptation_20261021",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 4,
+      "logical_bytes": 5092
+    },
+    {
+      "path": "02_实现工程/runs/glm_format_adaptation_20261021_attempt2/23例对照.csv",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 1025
+    },
+    {
+      "path": "02_实现工程/runs/glm_format_adaptation_20261021_attempt2/92条预测明细.csv",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 98176
+    },
+    {
+      "path": "02_实现工程/runs/glm_format_adaptation_20261021_attempt2/GLM适配前后与Qwen对比.xlsx",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 26059
+    },
+    {
+      "path": "02_实现工程/runs/glm_format_adaptation_20261021_attempt2/comparison_summary.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 1177
+    },
+    {
+      "path": "02_实现工程/runs/glm_format_adaptation_20261021_attempt2/execution.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 2459
+    },
+    {
+      "path": "02_实现工程/runs/glm_format_adaptation_20261021_attempt2/launch.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 300
+    },
+    {
+      "path": "02_实现工程/runs/glm_format_adaptation_20261021_attempt2/指标汇总.csv",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 342
+    },
+    {
+      "path": "02_实现工程/runs/glm_format_adaptation_20261021_attempt2/适配说明.csv",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 1165
+    },
+    {
+      "path": "02_实现工程/runs/official_corrected_pipeline",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 4,
+      "logical_bytes": 1983
+    },
+    {
+      "path": "02_实现工程/runs/official_corrected_stability",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 88,
+      "logical_bytes": 1229160391
+    },
+    {
+      "path": "02_实现工程/runs/official_corrected_train",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 6,
+      "logical_bytes": 107130
+    },
+    {
+      "path": "02_实现工程/runs/official_sft",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 19,
+      "logical_bytes": 184459322
+    },
+    {
+      "path": "02_实现工程/runs/official_sft_complete_preflight",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 3,
+      "logical_bytes": 95131
+    },
+    {
+      "path": "02_实现工程/runs/official_sft_extended",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 19,
+      "logical_bytes": 184461819
+    },
+    {
+      "path": "02_实现工程/runs/official_sft_followup",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 4,
+      "logical_bytes": 1977
+    },
+    {
+      "path": "02_实现工程/runs/official_sft_full_validation",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 3,
+      "logical_bytes": 126666
+    },
+    {
+      "path": "02_实现工程/runs/official_sft_long_2gpu_probe",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 5,
+      "logical_bytes": 18406
+    },
+    {
+      "path": "02_实现工程/runs/official_sft_long_3gpu_probe",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 11,
+      "logical_bytes": 61477629
+    },
+    {
+      "path": "02_实现工程/runs/official_sft_long_probe",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 5,
+      "logical_bytes": 20268
+    },
+    {
+      "path": "02_实现工程/runs/official_sft_long_split_probe",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 5,
+      "logical_bytes": 21964
+    },
+    {
+      "path": "02_实现工程/runs/official_sft_long_train",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 24,
+      "logical_bytes": 184498422
+    },
+    {
+      "path": "02_实现工程/runs/official_sft_maxlength_stability",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 89,
+      "logical_bytes": 1229160940
+    },
+    {
+      "path": "02_实现工程/runs/official_sft_registry_amp_probe",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 5,
+      "logical_bytes": 21707
+    },
+    {
+      "path": "02_实现工程/runs/official_sft_registry_chunked_probe",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 12,
+      "logical_bytes": 61481753
+    },
+    {
+      "path": "02_实现工程/runs/official_sft_registry_probe",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 5,
+      "logical_bytes": 22445
+    },
+    {
+      "path": "02_实现工程/runs/official_sft_supplement",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 20,
+      "logical_bytes": 184406200
+    },
+    {
+      "path": "02_实现工程/runs/official_sft_validation",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 3,
+      "logical_bytes": 7890
+    },
+    {
+      "path": "02_实现工程/runs/official_validation_queue",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 2,
+      "logical_bytes": 815
+    },
+    {
+      "path": "02_实现工程/runs/policy_candidates",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 6,
+      "logical_bytes": 61406
+    },
+    {
+      "path": "02_实现工程/runs/scheduled_20261019_0300",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 3,
+      "logical_bytes": 153
+    },
+    {
+      "path": "02_实现工程/runs/scheduled_20261019_0400",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 249,
+      "logical_bytes": 3135109741
+    },
+    {
+      "path": "02_实现工程/runs/smoke5090",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 16,
+      "logical_bytes": 458369480
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/controller.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 1884
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_001_train/checkpoint_step_00001350",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_001_train/checkpoint_step_00001358",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459373
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_001_train/checkpoint_step_00001360",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_001_train/checkpoint_step_00001370",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_001_train/checkpoint_step_00001372",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459373
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_001_train/checkpoint_step_00001380",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_001_train/checkpoint_step_00001386",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459373
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_001_train/checkpoint_step_00001390",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_001_train/checkpoint_step_00001400",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459373
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_001_train/checkpoint_step_00001410",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459693
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_001_train/checkpoint_step_00001414",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459501
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_001_train/checkpoint_step_00001420",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459693
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_001_train/checkpoint_step_00001428",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459501
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_001_train/checkpoint_step_00001430",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459693
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_001_train/execution.log",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 1,
+      "logical_bytes": 20214
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_001_train/state.json",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 1,
+      "logical_bytes": 987
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_001_validation/execution.log",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 1,
+      "logical_bytes": 2597
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_002_train/checkpoint_step_00001440",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459693
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_002_train/checkpoint_step_00001442",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459501
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_002_train/checkpoint_step_00001450",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459693
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_002_train/checkpoint_step_00001456",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459501
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_002_train/checkpoint_step_00001460",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_002_train/checkpoint_step_00001470",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459437
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_002_train/checkpoint_step_00001480",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_002_train/checkpoint_step_00001484",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459437
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_002_train/checkpoint_step_00001490",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_002_train/checkpoint_step_00001498",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459437
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_002_train/checkpoint_step_00001500",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_002_train/checkpoint_step_00001510",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_002_train/checkpoint_step_00001512",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459437
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_002_train/checkpoint_step_00001520",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_002_train/checkpoint_step_00001526",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459437
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_002_train/checkpoint_step_00001530",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_002_train/checkpoint_step_00001533",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_002_train/execution.log",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 1,
+      "logical_bytes": 20465
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_002_train/state.json",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 1,
+      "logical_bytes": 987
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_002_validation/execution.log",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 1,
+      "logical_bytes": 2597
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_003_train/checkpoint_step_00001540",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459437
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_003_train/checkpoint_step_00001550",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_003_train/checkpoint_step_00001554",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459437
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_003_train/checkpoint_step_00001560",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_003_train/checkpoint_step_00001568",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459437
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_003_train/checkpoint_step_00001570",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459693
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_003_train/checkpoint_step_00001580",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459693
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_003_train/checkpoint_step_00001582",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459437
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_003_train/checkpoint_step_00001590",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459693
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_003_train/checkpoint_step_00001596",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459437
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_003_train/checkpoint_step_00001600",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459693
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_003_train/checkpoint_step_00001610",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459437
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_003_train/checkpoint_step_00001620",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459693
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_003_train/checkpoint_step_00001624",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459437
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_003_train/checkpoint_step_00001626",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_003_train/execution.log",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 1,
+      "logical_bytes": 20056
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_003_train/state.json",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 1,
+      "logical_bytes": 983
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/cycle_003_validation/execution.log",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 1,
+      "logical_bytes": 2594
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/finish_round.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 964
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/latest_result.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 1064
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/launch.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 710
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/result_001.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 1042
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/result_002.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 1042
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261019/result_003.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 1064
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/controller.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 1886
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_001_train/checkpoint_step_00001630",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_001_train/checkpoint_step_00001638",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459437
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_001_train/checkpoint_step_00001640",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_001_train/checkpoint_step_00001650",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_001_train/checkpoint_step_00001652",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459437
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_001_train/checkpoint_step_00001660",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_001_train/checkpoint_step_00001666",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459437
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_001_train/checkpoint_step_00001670",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_001_train/checkpoint_step_00001680",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459437
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_001_train/checkpoint_step_00001690",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_001_train/checkpoint_step_00001694",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459437
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_001_train/checkpoint_step_00001700",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_001_train/checkpoint_step_00001708",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459437
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_001_train/checkpoint_step_00001710",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_001_train/checkpoint_step_00001720",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_001_train/execution.log",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 1,
+      "logical_bytes": 20269
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_001_train/state.json",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 1,
+      "logical_bytes": 986
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_001_validation/execution.log",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 1,
+      "logical_bytes": 2596
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_002_train/checkpoint_step_00001722",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459437
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_002_train/checkpoint_step_00001730",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_002_train/checkpoint_step_00001736",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459437
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_002_train/checkpoint_step_00001740",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_002_train/checkpoint_step_00001750",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459373
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_002_train/checkpoint_step_00001760",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_002_train/checkpoint_step_00001764",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459373
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_002_train/checkpoint_step_00001770",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_002_train/checkpoint_step_00001778",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459373
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_002_train/checkpoint_step_00001780",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_002_train/checkpoint_step_00001790",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_002_train/checkpoint_step_00001792",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459373
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_002_train/checkpoint_step_00001800",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_002_train/checkpoint_step_00001806",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459437
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_002_train/checkpoint_step_00001810",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_002_train/checkpoint_step_00001815",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 4,
+      "logical_bytes": 61459629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_002_train/execution.log",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 1,
+      "logical_bytes": 20451
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_002_train/state.json",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 1,
+      "logical_bytes": 985
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_002_validation/execution.log",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 1,
+      "logical_bytes": 2592
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_003_train/execution.log",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 1,
+      "logical_bytes": 629
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/cycle_003_train/state.json",
+      "reason": "旧权重快照和重复的运行文件",
+      "files": 1,
+      "logical_bytes": 757
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/latest_result.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 1043
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/launch.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 648
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/result_001.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 1043
+    },
+    {
+      "path": "02_实现工程/runs/targeted_official_20261020/result_002.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 1043
+    },
+    {
+      "path": "02_实现工程/runs/targeted_preflight_20261019",
+      "reason": "旧试跑、旧检查点、修改备份及临时运行产物",
+      "files": 3,
+      "logical_bytes": 95701
+    },
+    {
+      "path": "02_实现工程/runs/three_model_comparison_20261020/comparison_state.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 179
+    },
+    {
+      "path": "02_实现工程/runs/three_model_comparison_20261020/comparison_state_qwen25_cancelled.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 197
+    },
+    {
+      "path": "02_实现工程/runs/three_model_comparison_20261020/comparison_summary.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 940
+    },
+    {
+      "path": "02_实现工程/runs/three_model_comparison_20261020/export.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 718
+    },
+    {
+      "path": "02_实现工程/runs/three_model_comparison_20261020/glm_download.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 2460948
+    },
+    {
+      "path": "02_实现工程/runs/three_model_comparison_20261020/glm_preflight",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 2967
+    },
+    {
+      "path": "02_实现工程/runs/three_model_comparison_20261020/glm_preflight.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 44
+    },
+    {
+      "path": "02_实现工程/runs/three_model_comparison_20261020/glm_tokenizer_bootstrap",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 22,
+      "logical_bytes": 39939989
+    },
+    {
+      "path": "02_实现工程/runs/three_model_comparison_20261020/glm_tokenizer_bootstrap.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 684
+    },
+    {
+      "path": "02_实现工程/runs/three_model_comparison_20261020/glm_tokenizer_download.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 295
+    },
+    {
+      "path": "02_实现工程/runs/three_model_comparison_20261020/internvl_download.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 806
+    },
+    {
+      "path": "02_实现工程/runs/three_model_comparison_20261020/internvl_download_launch.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 456
+    },
+    {
+      "path": "02_实现工程/runs/three_model_comparison_20261020/internvl_preflight",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 3483
+    },
+    {
+      "path": "02_实现工程/runs/three_model_comparison_20261020/new_model_download.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 935608
+    },
+    {
+      "path": "02_实现工程/runs/three_model_comparison_20261020/new_model_download_launch.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 599
+    },
+    {
+      "path": "02_实现工程/runs/three_model_comparison_20261020/new_model_download_launch_qwen25_cancelled.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 570
+    },
+    {
+      "path": "02_实现工程/runs/three_model_comparison_20261020/new_model_evaluation.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 1977
+    },
+    {
+      "path": "02_实现工程/runs/three_model_comparison_20261020/new_model_preflight",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 2967
+    },
+    {
+      "path": "02_实现工程/runs/three_model_comparison_20261020/pipeline.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 722
+    },
+    {
+      "path": "02_实现工程/runs/three_model_comparison_20261020/qwen_execution.log",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 4169
+    },
+    {
+      "path": "02_实现工程/runs/three_model_comparison_20261020/qwen_launch.json",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 557
+    },
+    {
+      "path": "02_实现工程/runs/three_model_comparison_20261020/三个模型评测对比.xlsx",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 38277
+    },
+    {
+      "path": "02_实现工程/runs/three_model_comparison_20261020/三模型完整预测.csv",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 137567
+    },
+    {
+      "path": "02_实现工程/runs/three_model_comparison_20261020/三模型指标汇总.csv",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 358
+    },
+    {
+      "path": "02_实现工程/runs/three_model_comparison_20261020/三模型逐例对照.csv",
+      "reason": "仅保留最终模型、评测证据及相关训练记录",
+      "files": 1,
+      "logical_bytes": 1868
+    },
+    {
+      "path": "02_实现工程/data/data_report.md",
+      "reason": "可重建的旧版解析、特征缓存及试点中间数据",
+      "files": 1,
+      "logical_bytes": 3562
+    },
+    {
+      "path": "02_实现工程/data/features_pilot",
+      "reason": "可重建的旧版解析、特征缓存及试点中间数据",
+      "files": 490,
+      "logical_bytes": 12537438
+    },
+    {
+      "path": "02_实现工程/data/normalized",
+      "reason": "可重建的旧版解析、特征缓存及试点中间数据",
+      "files": 11,
+      "logical_bytes": 34558911
+    },
+    {
+      "path": "02_实现工程/data/pilot",
+      "reason": "可重建的旧版解析、特征缓存及试点中间数据",
+      "files": 3,
+      "logical_bytes": 5564
+    },
+    {
+      "path": "02_实现工程/data/policy_candidates",
+      "reason": "可重建的旧版解析、特征缓存及试点中间数据",
+      "files": 607,
+      "logical_bytes": 5068047
+    },
+    {
+      "path": "02_实现工程/data/reader_pilot",
+      "reason": "可重建的旧版解析、特征缓存及试点中间数据",
+      "files": 15,
+      "logical_bytes": 132121
+    },
+    {
+      "path": "02_实现工程/data/reader_pilot_repairs",
+      "reason": "可重建的旧版解析、特征缓存及试点中间数据",
+      "files": 6,
+      "logical_bytes": 69002
+    },
+    {
+      "path": "02_实现工程/data/reader_pilot_v2",
+      "reason": "可重建的旧版解析、特征缓存及试点中间数据",
+      "files": 38,
+      "logical_bytes": 607341
+    },
+    {
+      "path": "02_实现工程/data/readiness",
+      "reason": "可重建的旧版解析、特征缓存及试点中间数据",
+      "files": 2,
+      "logical_bytes": 2243
+    },
+    {
+      "path": "02_实现工程/data/training",
+      "reason": "可重建的旧版解析、特征缓存及试点中间数据",
+      "files": 6,
+      "logical_bytes": 16332671
+    },
+    {
+      "path": "02_实现工程/data/training_full",
+      "reason": "可重建的旧版解析、特征缓存及试点中间数据",
+      "files": 6,
+      "logical_bytes": 82974881
+    },
+    {
+      "path": ".pytest_cache",
+      "reason": "开发缓存或一次性文档编辑工具",
+      "files": 5,
+      "logical_bytes": 12393
+    },
+    {
+      "path": ".ruff_cache",
+      "reason": "开发缓存或一次性文档编辑工具",
+      "files": 11,
+      "logical_bytes": 10354
+    },
+    {
+      "path": "02_实现工程/code/scripts/update_disclosure_docx.py",
+      "reason": "开发缓存或一次性文档编辑工具",
+      "files": 1,
+      "logical_bytes": 27732
+    },
+    {
+      "path": "02_实现工程/.venv",
+      "reason": "交付环境改由锁文件重建，移除机器相关的虚拟环境",
+      "files": 7592,
+      "logical_bytes": 266589747
+    },
+    {
+      "path": "02_实现工程/audit_engine/__pycache__",
+      "reason": "程序检查产生的编译缓存",
+      "files": 1,
+      "logical_bytes": 210
+    },
+    {
+      "path": "02_实现工程/tests/__pycache__",
+      "reason": "程序检查产生的编译缓存",
+      "files": 40,
+      "logical_bytes": 237063
+    },
+    {
+      "path": "02_实现工程/audit_engine/models/__pycache__",
+      "reason": "程序检查产生的编译缓存",
+      "files": 7,
+      "logical_bytes": 31974
+    },
+    {
+      "path": "02_实现工程/audit_engine/policy/__pycache__",
+      "reason": "程序检查产生的编译缓存",
+      "files": 3,
+      "logical_bytes": 15577
+    },
+    {
+      "path": "02_实现工程/audit_engine/readers/__pycache__",
+      "reason": "程序检查产生的编译缓存",
+      "files": 7,
+      "logical_bytes": 34978
+    },
+    {
+      "path": "02_实现工程/audit_engine/training/__pycache__",
+      "reason": "程序检查产生的编译缓存",
+      "files": 12,
+      "logical_bytes": 69528
+    },
+    {
+      "path": "02_实现工程/code/scripts/__pycache__",
+      "reason": "程序检查产生的编译缓存",
+      "files": 22,
+      "logical_bytes": 401654
+    },
+    {
+      "path": "02_实现工程/models/Qwen3-VL-8B-Instruct",
+      "files": 14,
+      "logical_bytes": 17545907231,
+      "reason": "按用户要求删除未微调的基础/对比模型，仅交付训练checkpoint"
+    },
+    {
+      "path": "02_实现工程/models/GLM-4.1V-9B-Thinking",
+      "files": 12,
+      "logical_bytes": 20605685207,
+      "reason": "按用户要求删除未微调的基础/对比模型，仅交付训练checkpoint"
+    }
+  ],
+  "final_adapter_sha256": "c408780bf6d6510342a75e3cc1bbd75881103b1d2a957dc9aefd5f3049e74291",
+  "disclosure_sha256": "336aacfaac995e381cc3aef2923c8044f973c1304e030e6d7cd3305ad4d4cca0",
+  "after_allocated_bytes": 491472896,
+  "freed_allocated_bytes": 114430474752,
+  "deleted_file_count": 12448,
+  "last_cleanup_at": "2026-10-23T02:05:36.286964+08:00",
+  "last_cleanup": {
+    "before_allocated_bytes": 38643082752,
+    "after_allocated_bytes": 491472896,
+    "freed_allocated_bytes": 38151609856,
+    "retained_checkpoint": "02_实现工程/models/报销审计_LoRA"
+  }
+}

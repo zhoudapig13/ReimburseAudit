@@ -1,0 +1,307 @@
+{
+  "checked_at": "2026-10-27T18:21:51.308435+08:00",
+  "status": "passed",
+  "checks": [
+    {
+      "item": "交付配置与checkpoint：model",
+      "result": "通过",
+      "detail": "{'name': 'Qwen/Qwen3-VL-8B-Instruct', 'revision': '0c351dd01ed87e9c1b53cbc748cba10e6187ff3b', 'hidden_size': 4096, 'dimension': 512, 'width': 256, 'role_slots': 8, 'freeze_base': True, 'attention_backend': 'sdpa'}",
+      "references": [
+        "02_实现工程/configs/patent_delivery.yaml",
+        "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/audit_heads.pt"
+      ]
+    },
+    {
+      "item": "交付配置与checkpoint：reader",
+      "result": "通过",
+      "detail": "{'text_chunk_tokens': 2048, 'chunk_overlap_tokens': 128, 'total_input_tokens': 8192, 'image_max_pixels': 1048576, 'pdf_dpi': 120, 'condition_batch': 3}",
+      "references": [
+        "02_实现工程/configs/patent_delivery.yaml",
+        "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/audit_heads.pt"
+      ]
+    },
+    {
+      "item": "交付配置与checkpoint：heads",
+      "result": "通过",
+      "detail": "{'learning_rate': 0.0003, 'weight_decay': 0.01, 'gradient_clip': 1.0, 'policy_learning_rate_multiplier': 20.0, 'initial_projection_gain': 0.1, 'relation_class_weights': [1.0, 6.0, 0.25], 'warm_start_projection_gain': 1.0}",
+      "references": [
+        "02_实现工程/configs/patent_delivery.yaml",
+        "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/audit_heads.pt"
+      ]
+    },
+    {
+      "item": "交付配置与checkpoint：correction",
+      "result": "通过",
+      "detail": "{'max_rounds': 2, 'learning_rate': 0.0001, 'rho_relative': 0.03}",
+      "references": [
+        "02_实现工程/configs/patent_delivery.yaml",
+        "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/audit_heads.pt"
+      ]
+    },
+    {
+      "item": "交付配置与checkpoint：thresholds",
+      "result": "通过",
+      "detail": "{'reference': 0.25, 'support': 0.4, 'conflict': 0.65, 'negative_contribution': -0.05, 'missed_contribution': 0.15}",
+      "references": [
+        "02_实现工程/configs/patent_delivery.yaml",
+        "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/audit_heads.pt"
+      ]
+    },
+    {
+      "item": "交付配置与checkpoint：fast_training",
+      "result": "通过",
+      "detail": "{'epochs': {'B1': 5, 'B2': 5, 'B3': 8, 'B4': 5, 'C': 10}, 'patience': 3}",
+      "references": [
+        "02_实现工程/configs/patent_delivery.yaml",
+        "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/audit_heads.pt"
+      ]
+    },
+    {
+      "item": "读取配置、函数默认值与推理配置",
+      "result": "通过",
+      "detail": "引用0.25、支持0.40、冲突0.65、负贡献−0.05、重要遗漏0.15",
+      "references": [
+        "02_实现工程/configs/patent_reader_delivery.yaml",
+        "02_实现工程/audit_engine/defaults.py",
+        "02_实现工程/audit_engine/inference/runner.py",
+        "02_实现工程/audit_engine/training/forward.py"
+      ]
+    },
+    {
+      "item": "配置目录",
+      "result": "通过",
+      "detail": "交付运行、读取LoRA训练两份配置",
+      "references": [
+        "02_实现工程/configs/"
+      ]
+    },
+    {
+      "item": "配置读取和数据路径",
+      "result": "通过",
+      "detail": "默认入口和训练划分使用可用的交付相对路径",
+      "references": [
+        "02_实现工程/code/scripts/patent_pipeline.py",
+        "02_实现工程/configs/patent_delivery.yaml"
+      ]
+    },
+    {
+      "item": "三个模块及共享投影",
+      "result": "通过",
+      "detail": "4096维底座，512维审计表示，256维内部网络，8个角色槽；总参数13,541,385",
+      "references": [
+        "02_实现工程/audit_engine/models/heads.py",
+        "01_专利文档/一种基于审计过程数据的报销审计系统技术交底书（核心创新精简版）.docx"
+      ]
+    },
+    {
+      "item": "实际阶段优化记录",
+      "result": "通过",
+      "detail": "B1/B2/B3/B4/C实际优化72/96/72/132/70步",
+      "references": [
+        "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/training_summary.json",
+        "01_专利文档/一种基于审计过程数据的报销审计系统技术交底书（核心创新精简版）.docx"
+      ]
+    },
+    {
+      "item": "非零梯度记录",
+      "result": "通过",
+      "detail": "共享投影276、关系276、贡献300、校正70步",
+      "references": [
+        "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/training_summary.json",
+        "02_实现工程/audit_engine/training/stages.py"
+      ]
+    },
+    {
+      "item": "局部校正实际训练来源",
+      "result": "通过",
+      "detail": "C阶段每轮159个候选、接受0个候选；实际优化使用自然错误，Word和指南已明确",
+      "references": [
+        "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/training_summary.json",
+        "02_实现工程/audit_engine/training/patent.py",
+        "01_专利文档/一种基于审计过程数据的报销审计系统技术交底书（核心创新精简版）.docx"
+      ]
+    },
+    {
+      "item": "读取LoRA配置及问答数量",
+      "result": "通过",
+      "detail": "最后12层q/k/v/o共48个目标模块；116条训练问答、4条验证问答；r16、alpha32、dropout0.05、学习率1e-5",
+      "references": [
+        "02_实现工程/data/三模块交付_20261027/reader_qa/",
+        "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/reader_lora/adapter_config.json",
+        "02_实现工程/configs/patent_reader_delivery.yaml"
+      ]
+    },
+    {
+      "item": "交付数据与训练子集",
+      "result": "通过",
+      "detail": "67个输入、226个条件、198条已批准监督；24个原始训练工作流+20个附件变体；8个条件级验证工作流",
+      "references": [
+        "02_实现工程/data/三模块交付_20261027/dataset/",
+        "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/training_summary.json"
+      ]
+    },
+    {
+      "item": "全部23例重跑及逐例一致性",
+      "result": "通过",
+      "detail": "23例逐例事实表、金额表、复核、判定与模块调用均一致；12/23=52.17%",
+      "references": [
+        "03_评测结果/三模块评测/predictions.jsonl",
+        "03_评测结果/三模块评测/score.json",
+        "03_评测结果/三模块评测/"
+      ]
+    },
+    {
+      "item": "三模块实际调用及金额守恒",
+      "result": "通过",
+      "detail": "关系462、贡献55、校正32次；23例金额守恒全部通过",
+      "references": [
+        "02_实现工程/audit_engine/inference/runner.py",
+        "02_实现工程/audit_engine/policy/amounts.py"
+      ]
+    },
+    {
+      "item": "原始评测材料",
+      "result": "通过",
+      "detail": "163份原始材料摘要逐份一致",
+      "references": [
+        "02_实现工程/data_raw/ReimburseBench/",
+        "02_实现工程/data/三模块交付_20261027/validation_cases.jsonl"
+      ]
+    },
+    {
+      "item": "联合权重、阶段权重与LoRA保留",
+      "result": "通过",
+      "detail": "联合checkpoint、5个阶段checkpoint、读取LoRA及训练状态共9个文件摘要不变",
+      "references": [
+        "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/"
+      ]
+    },
+    {
+      "item": "Word公式和原图片",
+      "result": "通过",
+      "detail": "346个公式和所有嵌入图片保持一致",
+      "references": [
+        "01_专利文档/一种基于审计过程数据的报销审计系统技术交底书（核心创新精简版）.docx"
+      ]
+    },
+    {
+      "item": "PDF最后附图",
+      "result": "通过",
+      "detail": "最后附图页逐像素一致；正文同步，PDF共16页",
+      "references": [
+        "01_专利文档/一种基于审计过程数据的报销审计系统技术交底书（核心创新精简版）.docx"
+      ]
+    },
+    {
+      "item": "Word实际参数与当前结果",
+      "result": "通过",
+      "detail": "Word、最终配置及实测结果对应",
+      "references": [
+        "01_专利文档/一种基于审计过程数据的报销审计系统技术交底书（核心创新精简版）.docx",
+        "02_实现工程/configs/patent_delivery.yaml"
+      ]
+    },
+    {
+      "item": "源码语法与入口引用",
+      "result": "通过",
+      "detail": "132个Python文件语法通过；脚本与配置引用均存在",
+      "references": [
+        "02_实现工程/audit_engine/",
+        "02_实现工程/code/scripts/",
+        "02_实现工程/tests/"
+      ]
+    },
+    {
+      "item": "交付源码、配置及模板措辞",
+      "result": "通过",
+      "detail": "90份当前源码与配置复查通过；实际状态类别和程序校验含义保留",
+      "references": [
+        "02_实现工程/code/scripts/",
+        "02_实现工程/audit_engine/",
+        "02_实现工程/configs/"
+      ]
+    },
+    {
+      "item": "完整工程测试",
+      "result": "通过",
+      "detail": "242项通过，1项跳过",
+      "references": [
+        "03_评测结果/三模块评测/tests.xml"
+      ]
+    },
+    {
+      "item": "历史入口归档",
+      "result": "通过",
+      "detail": "30份旧配置、35份历史脚本已移至交付目录外",
+      "references": [
+        "02_实现工程/configs/",
+        "02_实现工程/code/scripts/"
+      ]
+    },
+    {
+      "item": "原始Qwen基线",
+      "result": "通过",
+      "detail": "23例逐例预测按当前参考答案复核，6例联合正确，准确率26.09%；基线权重保持原始状态",
+      "references": [
+        "03_评测结果/基线评测/qwen_original_predictions.jsonl",
+        "03_评测结果/基线评测/qwen_original_score.json"
+      ]
+    },
+    {
+      "item": "未微调GLM基线",
+      "result": "通过",
+      "detail": "23例逐例预测按当前参考答案复核，6例联合正确，准确率26.09%；基线权重保持原始状态",
+      "references": [
+        "03_评测结果/基线评测/glm_original_predictions.jsonl",
+        "03_评测结果/基线评测/glm_original_score.json"
+      ]
+    }
+  ],
+  "check_count": 28,
+  "checkpoint_unchanged": true,
+  "reader_lora_unchanged": true,
+  "last_figure_unchanged": true,
+  "tests_passed": 242,
+  "tests_skipped": 1,
+  "validation_correct": 12,
+  "validation_total": 23,
+  "accuracy": 0.5217391304347826,
+  "module_calls": {
+    "relation": 462,
+    "contribution": 55,
+    "corrector": 32
+  },
+  "source_files_verified": 163,
+  "archived_entries": 65,
+  "verification_prediction_sha256": "46c2f3125cb8159256faf5004dea22bc88f9bae4864807745b05e50bd46e7ae0",
+  "static_checks": {
+    "tool": "ruff",
+    "changed_python_files": 31,
+    "result": "passed"
+  },
+  "semantic_predictions_matched": true,
+  "compared_outputs": [
+    "F",
+    "B",
+    "answer",
+    "review",
+    "module_calls"
+  ],
+  "baseline_results": {
+    "qwen_original": {
+      "correct": 6,
+      "total": 23,
+      "accuracy": 0.2608695652173913,
+      "current_reference_rescore_matched": true
+    },
+    "glm_original": {
+      "correct": 6,
+      "total": 23,
+      "accuracy": 0.2608695652173913,
+      "current_reference_rescore_matched": true
+    },
+    "baseline_weights_added": false,
+    "comparison": "基线与三模块对比.csv"
+  },
+  "pre_delivery_check": "03_评测结果/交付前自查.json"
+}

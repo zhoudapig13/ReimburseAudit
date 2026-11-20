@@ -1,0 +1,14 @@
+raw_root: data_raw/ReimburseBench
+packed_root: data/packed
+normalized_root: data/normalized_full
+training_root: data/training_full
+labels_root: data/labels_private
+splits:
+  train_inputs: data/packed/train_inputs.jsonl
+  validation_inputs: data/packed/validation_inputs.jsonl
+  test_inputs: data/packed/test_inputs.jsonl
+  train_targets: data/labels_private/train_reference_targets.jsonl
+privacy:
+  production_must_not_mount_labels_root: true
+  validation_targets_allowed_for_training: false
+  test_targets_allowed_for_training: false

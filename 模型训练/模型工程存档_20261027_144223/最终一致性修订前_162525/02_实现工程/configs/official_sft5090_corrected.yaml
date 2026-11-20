@@ -1,0 +1,136 @@
+project:
+  seed: 3407
+  data_root: data_raw/ReimburseBench
+  work_root: runs
+  schema_version: '3.0'
+model:
+  name: Qwen/Qwen3-VL-8B-Instruct
+  revision: 0c351dd01ed87e9c1b53cbc748cba10e6187ff3b
+  hidden_size: 4096
+  dimension: 512
+  width: 256
+  role_slots: 8
+  freeze_base: true
+  base_dtype: bfloat16
+  head_dtype: float32
+  attention_backend: sdpa
+  device_map:
+    model.visual: cuda:7
+    model.language_model.embed_tokens: cuda:7
+    model.language_model.layers.0: cuda:7
+    model.language_model.layers.1: cuda:7
+    model.language_model.layers.2: cuda:7
+    model.language_model.layers.3: cuda:7
+    model.language_model.layers.4: cuda:7
+    model.language_model.layers.5: cuda:7
+    model.language_model.layers.6: cuda:7
+    model.language_model.layers.7: cuda:7
+    model.language_model.layers.8: cuda:7
+    model.language_model.layers.9: cuda:7
+    model.language_model.layers.10: cuda:7
+    model.language_model.layers.11: cuda:7
+    model.language_model.layers.12: cuda:7
+    model.language_model.layers.13: cuda:7
+    model.language_model.layers.14: cuda:7
+    model.language_model.layers.15: cuda:7
+    model.language_model.layers.16: cuda:7
+    model.language_model.layers.17: cuda:7
+    model.language_model.layers.18: cuda:7
+    model.language_model.layers.19: cuda:7
+    model.language_model.layers.20: cuda:7
+    model.language_model.layers.21: cuda:7
+    model.language_model.layers.22: cuda:7
+    model.language_model.layers.23: cuda:7
+    model.language_model.layers.24: cuda:0
+    model.language_model.layers.25: cuda:0
+    model.language_model.layers.26: cuda:0
+    model.language_model.layers.27: cuda:1
+    model.language_model.layers.28: cuda:1
+    model.language_model.layers.29: cuda:1
+    model.language_model.layers.30: cuda:2
+    model.language_model.layers.31: cuda:2
+    model.language_model.layers.32: cuda:2
+    model.language_model.layers.33: cuda:3
+    model.language_model.layers.34: cuda:3
+    model.language_model.layers.35: cuda:3
+    model.language_model.norm: cuda:3
+    model.language_model.rotary_emb: cuda:7
+    lm_head: cuda:3
+  training_autocast_bf16: true
+  mlp_chunk_tokens: 8192
+  device_local_checkpointing: true
+  final_norm_chunk_tokens: 8192
+reader:
+  text_chunk_tokens: 2048
+  chunk_overlap_tokens: 128
+  total_input_tokens: 131072
+  max_new_tokens: 256
+  max_images_per_call: 9
+  image_max_pixels: 1048576
+  do_sample: false
+  format_retry: 1
+  read_retry: 1
+  compact_tables: true
+  compact_json_records: true
+policy:
+  compare_whitelist:
+  - EQ
+  - LE
+  - GE
+  - WITHIN
+  - IN_SET
+  - AUTHORIZED
+  require_source_quotes: true
+  unresolved_action: review
+heads:
+  dropout: 0.0
+  candidate_batch: 8
+  learning_rate: 0.0003
+  weight_decay: 0.01
+  batch_conditions: 16
+  max_epochs: 20
+  patience: 5
+  gradient_clip: 1.0
+correction:
+  max_rounds: 2
+  learning_rate: 0.0001
+  max_epochs: 10
+  patience: 3
+  rho_relative: 0.03
+  perturb_steps: 1
+  mixture_correct: 0.4
+  mixture_natural_error: 0.3
+  mixture_perturbed: 0.3
+thresholds:
+  reference: 0.6
+  support: 0.7
+  conflict: 0.7
+  negative_contribution: -0.05
+  missed_contribution: 0.15
+lora:
+  enabled: true
+  rank: 16
+  alpha: 32
+  dropout: 0.05
+  last_text_layers: 12
+  target_suffixes:
+  - q_proj
+  - k_proj
+  - v_proj
+  - o_proj
+  learning_rate: 2.0e-05
+  max_epochs: 3
+  per_device_batch: 1
+  gradient_accumulation: 8
+  warmup_ratio: 0.05
+  schedule: cosine
+environment:
+  profile: smoke
+  python_versions:
+  - '3.11'
+  - '3.12'
+  required_gpu_count: 5
+  minimum_gpu_memory_gib: 24
+  max_gpu_memory_gib: 28.2
+  reason: 'Corrected model-parallel dropout RNG: move inputs before checkpoint captures
+    RNG; pointwise final norm chunks retain full context'

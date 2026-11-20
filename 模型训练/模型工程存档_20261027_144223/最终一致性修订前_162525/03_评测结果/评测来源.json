@@ -1,0 +1,19 @@
+{
+  "updated_at": "2026-10-27T14:45:57.481108+08:00",
+  "evaluation_split": "validation",
+  "workflows": 23,
+  "model": "报销审计三模块系统",
+  "checkpoint": "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/audit_heads.pt",
+  "checkpoint_sha256": "00cc430d02f609c0da04ba911172188ad6cc164888a8d09c468365cca9a5dc78",
+  "reader_adapter": "02_实现工程/models/报销审计_三模块/checkpoint_20261027_5217/reader_lora",
+  "correct": 12,
+  "accuracy": 0.5217391304347826,
+  "metric": "FLAG_and_max_legal_joint_exact",
+  "predictions": "三模块评测/predictions.jsonl",
+  "score": "三模块评测/score.json",
+  "module_calls": {
+    "relation": 462,
+    "contribution": 55,
+    "corrector": 32
+  }
+}

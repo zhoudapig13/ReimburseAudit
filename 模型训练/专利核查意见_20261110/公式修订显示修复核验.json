@@ -1,0 +1,56 @@
+{
+  "source": "/mnt/public/zhouyibo/模型训练/01_专利文档/11.9-二稿-一种基于审计过程数据的报销审计系统及方法(1).docx",
+  "original_backup": "/mnt/public/zhouyibo/模型训练/专利核查意见_20261110/源文件修改前备份/11.9-二稿-一种基于审计过程数据的报销审计系统及方法(1).docx",
+  "replaces_broader_edit": true,
+  "scope": "仅六个小写v改为已定义的大写V；其余内容恢复原稿",
+  "author": "周奕博",
+  "edits": [
+    {
+      "paragraph": 200,
+      "before": "v",
+      "after": "V"
+    },
+    {
+      "paragraph": 202,
+      "before": "v",
+      "after": "V"
+    },
+    {
+      "paragraph": 203,
+      "before": "v",
+      "after": "V"
+    },
+    {
+      "paragraph": 204,
+      "before": "v",
+      "after": "V"
+    },
+    {
+      "paragraph": 204,
+      "before": "v",
+      "after": "V"
+    },
+    {
+      "paragraph": 232,
+      "before": "v",
+      "after": "V"
+    }
+  ],
+  "original_xml_restored_by_rejecting_only_new_edits": true,
+  "all_original_revisions_preserved": true,
+  "other_package_parts_unchanged_except_tracking_setting": true,
+  "source_sha256": "b8573fce9be6a10207ad30832d7331a94149f8dd2fa0a54a4fb8c8040c69310b",
+  "timestamp": "2026-11-10T05:24:31.848331+00:00",
+  "native_math_revision_structure_corrected": true,
+  "revision_pattern": "m:r/w:ins or w:del/(w:rPr,m:t)",
+  "download": "/mnt/public/zhouyibo/模型训练/01_专利文档/11.9-二稿-仅字母修订_显示修正版.docx",
+  "validation": {
+    "accepted_and_rejected_text_correct": true,
+    "six_letters_only": true,
+    "native_equations_preserved": 355,
+    "original_revisions_and_other_parts_preserved": true,
+    "matches_Word_authored_math_revision_structure": true,
+    "direct_Microsoft_Word_validation_available": false,
+    "LibreOffice_math_revision_rendering_supported": false
+  }
+}

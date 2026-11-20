@@ -1,0 +1,24 @@
+﻿工作流,是否答对,预测FLAG,预测最高金额,参考FLAG,参考最高金额,关系模块调用,贡献模块调用,校正模块调用,复核原因
+1.2.1,0,0,,0,0,0,0,0,policy_coverage_or_reader_unresolved; amount_basis_unresolved
+1.2.2,0,0,,0,0,0,0,0,policy_coverage_or_reader_unresolved; amount_basis_unresolved
+1.2.3,0,0,,1,45.58,0,0,0,policy_coverage_or_reader_unresolved; amount_basis_unresolved
+1.2.4,0,0,,0,0,0,0,0,policy_coverage_or_reader_unresolved; amount_basis_unresolved
+3.1.1,0,0,,0,0,0,0,0,policy_coverage_or_reader_unresolved; amount_basis_unresolved
+3.1.2,0,0,,0,0,0,0,0,policy_coverage_or_reader_unresolved; amount_basis_unresolved
+3.1.3,0,0,,0,0,0,0,0,policy_coverage_or_reader_unresolved; amount_basis_unresolved
+3.1.4,0,0,,0,29.55,0,0,0,policy_coverage_or_reader_unresolved; amount_basis_unresolved
+3.1.5,0,0,,1,170,0,0,0,policy_coverage_or_reader_unresolved; amount_basis_unresolved
+3.2.1,0,0,,0,0,7,1,0,policy_coverage_or_reader_unresolved; amount_basis_unresolved
+3.2.2,0,0,,1,12800,0,0,0,policy_coverage_or_reader_unresolved; amount_basis_unresolved
+3.2.3,0,0,,1,13952,0,0,0,policy_coverage_or_reader_unresolved; amount_basis_unresolved
+3.4.1,0,0,,0,6000,0,0,0,policy_coverage_or_reader_unresolved; amount_basis_unresolved
+3.4.2,0,0,,1,6000,7,1,0,policy_coverage_or_reader_unresolved; amount_basis_unresolved
+4.2.1,0,0,,0,70,0,0,0,policy_coverage_or_reader_unresolved; amount_basis_unresolved
+4.2.2,0,0,,0,0,0,0,0,policy_coverage_or_reader_unresolved; amount_basis_unresolved
+4.2.3,0,0,,0,0,0,0,0,policy_coverage_or_reader_unresolved; amount_basis_unresolved
+4.2.4,0,0,,0,0,0,0,0,policy_coverage_or_reader_unresolved; amount_basis_unresolved
+4.3.1,0,0,,0,0,0,0,0,policy_coverage_or_reader_unresolved; amount_basis_unresolved
+4.3.2,0,0,,0,0,0,0,0,policy_coverage_or_reader_unresolved; amount_basis_unresolved
+4.3.3,0,0,,0,89.9,0,0,0,policy_coverage_or_reader_unresolved; amount_basis_unresolved
+4.3.4,0,0,,0,0,0,0,0,policy_coverage_or_reader_unresolved; amount_basis_unresolved
+4.3.5,0,0,,0,0,0,0,0,policy_coverage_or_reader_unresolved; amount_basis_unresolved

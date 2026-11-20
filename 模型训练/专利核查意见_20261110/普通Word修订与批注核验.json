@@ -1,0 +1,56 @@
+{
+  "source": "/mnt/public/zhouyibo/模型训练/01_专利文档/11.9-二稿-一种基于审计过程数据的报销审计系统及方法(1).docx",
+  "draft": "/mnt/public/zhouyibo/模型训练/专利核查意见_20261110/仅六字母_标准Word修订及批注.docx",
+  "sha_before": "b8573fce9be6a10207ad30832d7331a94149f8dd2fa0a54a4fb8c8040c69310b",
+  "six_letter_changes_only": true,
+  "all_old_revisions_preserved": true,
+  "edits": [
+    {
+      "paragraph": 200,
+      "comment_id": 0,
+      "before": "v",
+      "after": "V"
+    },
+    {
+      "paragraph": 202,
+      "comment_id": 1,
+      "before": "v",
+      "after": "V"
+    },
+    {
+      "paragraph": 203,
+      "comment_id": 2,
+      "before": "v",
+      "after": "V"
+    },
+    {
+      "paragraph": 204,
+      "comment_id": 3,
+      "before": "v",
+      "after": "V"
+    },
+    {
+      "paragraph": 204,
+      "comment_id": 4,
+      "before": "v",
+      "after": "V"
+    },
+    {
+      "paragraph": 232,
+      "comment_id": 5,
+      "before": "v",
+      "after": "V"
+    }
+  ],
+  "revision_author": "周奕博",
+  "new_word_text_revisions": 12,
+  "comments": 6,
+  "six_affected_equation_fragments_use_Word_runs_with_scripts": true,
+  "accepted_and_rejected_visible_content_verified": true,
+  "images_and_results_unchanged": true,
+  "source_updated": true,
+  "application_roundtrip_retains_6_insertions_6_deletions_and_6_comments": true,
+  "marked_preview_visually_checked": true,
+  "source_sha256": "845333293e82aeb5fb28b73a98a483dffaba0c8b60320c9d25bb3d2777a47f22",
+  "delivery": "/mnt/public/zhouyibo/模型训练/01_专利文档/11.9-二稿-六处字母_修订及周奕博批注.docx"
+}

@@ -1,0 +1,27 @@
+{
+  "python": "3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0]",
+  "packages": {
+    "torch": "2.8.0a0+34c6371d24.nv25.8",
+    "transformers": "4.57.6",
+    "peft": "0.18.1",
+    "accelerate": "1.15.0",
+    "safetensors": "0.6.2",
+    "tokenizers": "0.22.2",
+    "Pillow": "11.3.0",
+    "openpyxl": "3.1.5",
+    "python-docx": "1.2.0",
+    "PyMuPDF": "1.28.2",
+    "pydantic": "2.11.7",
+    "PyYAML": "6.0.2",
+    "scikit-learn": "1.6.1",
+    "lm-format-enforcer": "0.11.3",
+    "interegular": "0.3.3",
+    "pytest": "8.1.1",
+    "ruff": "0.17.0",
+    "torchao": "0.12.0+git",
+    "numpy": "1.26.4"
+  },
+  "dataset_revision": "71476774f25bfc022ae926461c3e76ed9841fc48",
+  "qwen_revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+  "glm_revision": "3c1471e51dc811b589d4d12b1c1c7c1c941267c2"
+}

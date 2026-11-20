@@ -1,0 +1,9 @@
+{
+  "checked_at": "2026-10-27T14:20:32.599114+08:00",
+  "proofs": 2,
+  "original_materials": 6,
+  "actual_source_views": 36,
+  "raw_calls_hash_verified": true,
+  "all_text_segments_and_whole_invoice_covered": true,
+  "benchmark_targets_read_by_reader": false
+}
