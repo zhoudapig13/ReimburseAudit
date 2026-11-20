@@ -35,7 +35,7 @@ cd 模型训练/02_实现工程
 python -m pip install -r requirements-runtime.lock.txt
 ```
 
-Prepare the documented backbone, reader adapter, feature inputs, and trained checkpoints before running the pipeline. These large artifacts are not part of the lightweight Git checkout; consult the complete backup release for the archived working files.
+Prepare the documented backbone, reader adapter, feature inputs, and trained checkpoints before running the pipeline. These large artifacts are not part of the lightweight Git checkout. The [verified current-delivery backup](https://github.com/zhoudapig13/ReimburseAudit/releases/tag/essential-backup-20261120) contains the delivered model weights, reader LoRA, and data; restore it before running the archived pipeline.
 
 ## Recorded development evaluation
 
@@ -43,4 +43,4 @@ The delivery records report 12 jointly correct cases out of 23 fixed development
 
 ## Complete backup
 
-The complete original directory, including data, trained weights, LoRA adapters, and historical runs, is backed up through split GitHub Release assets when uploaded. [backup/README.md](backup/README.md) records the inventory, checksums, exclusions, and restoration procedure. Source paths are preserved under `模型训练/`.
+The current delivery, including its data, trained weights, and LoRA adapters, is already preserved in a verified split GitHub Release backup. The larger historical training archive is being uploaded separately. [backup/README.md](backup/README.md) records the inventory, checksums, exclusions, and restoration procedure. Source paths are preserved under `模型训练/`.

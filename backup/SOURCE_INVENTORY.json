@@ -1,0 +1,72 @@
+[
+  {
+    "path": "01_专利文档",
+    "files": 10,
+    "bytes": 8215060,
+    "largest_file": 999466,
+    "symlinks": 0
+  },
+  {
+    "path": "02_实现工程",
+    "files": 2319,
+    "bytes": 799218539,
+    "largest_file": 83823273,
+    "symlinks": 0
+  },
+  {
+    "path": "03_评测结果",
+    "files": 22,
+    "bytes": 408982,
+    "largest_file": 290405,
+    "symlinks": 0
+  },
+  {
+    "path": "专利核查意见_20261104",
+    "files": 31,
+    "bytes": 6721312,
+    "largest_file": 970245,
+    "symlinks": 0
+  },
+  {
+    "path": "专利核查意见_20261109",
+    "files": 13,
+    "bytes": 2715784,
+    "largest_file": 1257186,
+    "symlinks": 0
+  },
+  {
+    "path": "专利核查意见_20261110",
+    "files": 70,
+    "bytes": 19163482,
+    "largest_file": 1270684,
+    "symlinks": 0
+  },
+  {
+    "path": "交付修订工作区_20261027_181327",
+    "files": 100,
+    "bytes": 6847483,
+    "largest_file": 2097162,
+    "symlinks": 28
+  },
+  {
+    "path": "交付清单.json",
+    "files": 1,
+    "bytes": 555635,
+    "largest_file": 555635,
+    "symlinks": 0
+  },
+  {
+    "path": "交付说明.txt",
+    "files": 1,
+    "bytes": 1748,
+    "largest_file": 1748,
+    "symlinks": 0
+  },
+  {
+    "path": "模型工程存档_20261027_144223",
+    "files": 16442,
+    "bytes": 18704309520,
+    "largest_file": 320119402,
+    "symlinks": 382
+  }
+]

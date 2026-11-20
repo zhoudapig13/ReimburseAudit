@@ -1,0 +1,47 @@
+{
+  "source_directory": "模型训练",
+  "repository": "zhoudapig13/ReimburseAudit",
+  "release_url": "https://github.com/zhoudapig13/ReimburseAudit/releases/tag/essential-backup-20261120",
+  "completed_utc": "2026-11-20T13:32:14Z",
+  "archive_format": "tar.zst split into ordered chunks",
+  "exclusions": [
+    ".git",
+    "__pycache__",
+    ".pytest_cache",
+    ".cache",
+    "node_modules",
+    ".venv",
+    "venv",
+    ".ssh",
+    ".env",
+    ".env.*",
+    ".git-credentials",
+    "*.pem",
+    "*.key",
+    "模型工程存档_20261027_144223"
+  ],
+  "compressed_bytes": 616932683,
+  "chunks": [
+    {
+      "name": "ReimburseAudit-essential.tar.zst.part-000000",
+      "bytes": 268435456,
+      "sha256": "8816a84d666c159a5dbf7cd2c8f9ee40e1253a8e3938aba96d68608bcf57a696",
+      "github_digest": "sha256:8816a84d666c159a5dbf7cd2c8f9ee40e1253a8e3938aba96d68608bcf57a696",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/essential-backup-20261120/ReimburseAudit-essential.tar.zst.part-000000"
+    },
+    {
+      "name": "ReimburseAudit-essential.tar.zst.part-000001",
+      "bytes": 268435456,
+      "sha256": "1677c1312bffb423bf490c6a82848d99a1567a013adbbe5e1918bf5a27a082ea",
+      "github_digest": "sha256:1677c1312bffb423bf490c6a82848d99a1567a013adbbe5e1918bf5a27a082ea",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/essential-backup-20261120/ReimburseAudit-essential.tar.zst.part-000001"
+    },
+    {
+      "name": "ReimburseAudit-essential.tar.zst.part-000002",
+      "bytes": 80061771,
+      "sha256": "47fe11dfceb2b18cb2a3638d9e8f1cc64e6ff7107bdbbf1dffd89c8a31d10c14",
+      "github_digest": "sha256:47fe11dfceb2b18cb2a3638d9e8f1cc64e6ff7107bdbbf1dffd89c8a31d10c14",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/essential-backup-20261120/ReimburseAudit-essential.tar.zst.part-000002"
+    }
+  ]
+}
