@@ -43,4 +43,4 @@ The delivery records report 12 jointly correct cases out of 23 fixed development
 
 ## Complete backup
 
-The current delivery, including its data, trained weights, and LoRA adapters, is already preserved in a verified split GitHub Release backup. The larger historical training archive is being uploaded separately. [backup/README.md](backup/README.md) records the inventory, checksums, exclusions, and restoration procedure. Source paths are preserved under `模型训练/`.
+The current delivery, including its data, trained weights, and LoRA adapters, is already preserved in a verified split GitHub Release backup. The complete historical training archive is also uploaded and verified: 57 volumes totaling 15,276,429,835 compressed bytes. [backup/README.md](backup/README.md) records the inventory, checksums, exclusions, and restoration procedure. Source paths are preserved under `模型训练/`.

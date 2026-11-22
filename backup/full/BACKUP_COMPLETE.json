@@ -1,0 +1,424 @@
+{
+  "source_directory": "模型训练",
+  "repository": "zhoudapig13/ReimburseAudit",
+  "release_url": "https://github.com/zhoudapig13/ReimburseAudit/releases/tag/server-backup-20261120",
+  "completed_utc": "2026-11-21T16:23:31Z",
+  "archive_format": "tar.zst split into ordered chunks",
+  "exclusions": [
+    ".git",
+    "__pycache__",
+    ".pytest_cache",
+    ".cache",
+    "node_modules",
+    ".venv",
+    "venv",
+    ".ssh",
+    ".env",
+    ".env.*",
+    ".git-credentials",
+    "*.pem",
+    "*.key"
+  ],
+  "compressed_bytes": 15276429835,
+  "chunks": [
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000000",
+      "bytes": 268435456,
+      "sha256": "8816a84d666c159a5dbf7cd2c8f9ee40e1253a8e3938aba96d68608bcf57a696",
+      "github_digest": "sha256:8816a84d666c159a5dbf7cd2c8f9ee40e1253a8e3938aba96d68608bcf57a696",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000000"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000001",
+      "bytes": 268435456,
+      "sha256": "1677c1312bffb423bf490c6a82848d99a1567a013adbbe5e1918bf5a27a082ea",
+      "github_digest": "sha256:1677c1312bffb423bf490c6a82848d99a1567a013adbbe5e1918bf5a27a082ea",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000001"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000002",
+      "bytes": 268435456,
+      "sha256": "b174c51a829ee3c328942658dbdcf9415d5ced51f72c11f4f81acb04c339e31f",
+      "github_digest": "sha256:b174c51a829ee3c328942658dbdcf9415d5ced51f72c11f4f81acb04c339e31f",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000002"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000003",
+      "bytes": 268435456,
+      "sha256": "6bd04167c99a54d8d94ddd4afb3a95035158855d6bc933b8d45e1b09887e36ef",
+      "github_digest": "sha256:6bd04167c99a54d8d94ddd4afb3a95035158855d6bc933b8d45e1b09887e36ef",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000003"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000004",
+      "bytes": 268435456,
+      "sha256": "003742734cd10f798abf8360c2763510ea1e1296815e2e532db9d489206d0dc4",
+      "github_digest": "sha256:003742734cd10f798abf8360c2763510ea1e1296815e2e532db9d489206d0dc4",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000004"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000005",
+      "bytes": 268435456,
+      "sha256": "422dd6f21ccd827c5f88df4452f2763cbaedfe25e5f462bf4d515aee89cc90a9",
+      "github_digest": "sha256:422dd6f21ccd827c5f88df4452f2763cbaedfe25e5f462bf4d515aee89cc90a9",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000005"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000006",
+      "bytes": 268435456,
+      "sha256": "de8dcb76be7b6fc23fcb517f8d9ef56a27b59c738a7719fbc701b1b7d174915f",
+      "github_digest": "sha256:de8dcb76be7b6fc23fcb517f8d9ef56a27b59c738a7719fbc701b1b7d174915f",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000006"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000007",
+      "bytes": 268435456,
+      "sha256": "fa981cdf8ce672af9e53071161829531f989776748af828a2cc3a29b4f7aeaf1",
+      "github_digest": "sha256:fa981cdf8ce672af9e53071161829531f989776748af828a2cc3a29b4f7aeaf1",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000007"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000008",
+      "bytes": 268435456,
+      "sha256": "a8e3db6d540f8631870e6f271034acc75c06447701578a461175f906e7d36c3f",
+      "github_digest": "sha256:a8e3db6d540f8631870e6f271034acc75c06447701578a461175f906e7d36c3f",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000008"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000009",
+      "bytes": 268435456,
+      "sha256": "99bcdb1e00fa1a98853786fc0a4604935f385019033f0de4fdc2d5d47a87e918",
+      "github_digest": "sha256:99bcdb1e00fa1a98853786fc0a4604935f385019033f0de4fdc2d5d47a87e918",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000009"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000010",
+      "bytes": 268435456,
+      "sha256": "d21e078125f58a19367a3610099e8e020178108df1e893c25fbd8943aca32410",
+      "github_digest": "sha256:d21e078125f58a19367a3610099e8e020178108df1e893c25fbd8943aca32410",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000010"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000011",
+      "bytes": 268435456,
+      "sha256": "fe1293cbf94f4b7b6ea480a88258c600c1ffa0c6805de6149e9f881976ee29a8",
+      "github_digest": "sha256:fe1293cbf94f4b7b6ea480a88258c600c1ffa0c6805de6149e9f881976ee29a8",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000011"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000012",
+      "bytes": 268435456,
+      "sha256": "dbd47a74d5368fc8d29bbf68a73cf4defac091fb537d4ef91c48cf3b822c72be",
+      "github_digest": "sha256:dbd47a74d5368fc8d29bbf68a73cf4defac091fb537d4ef91c48cf3b822c72be",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000012"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000013",
+      "bytes": 268435456,
+      "sha256": "80296ea581eb6f071f633b7ddc858bb5b18879f94f561ea242eb78b979c4c4af",
+      "github_digest": "sha256:80296ea581eb6f071f633b7ddc858bb5b18879f94f561ea242eb78b979c4c4af",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000013"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000014",
+      "bytes": 268435456,
+      "sha256": "ff085442700de78727b1466381df905feeb99b65823ea101c0b736f29d6a9ed8",
+      "github_digest": "sha256:ff085442700de78727b1466381df905feeb99b65823ea101c0b736f29d6a9ed8",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000014"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000015",
+      "bytes": 268435456,
+      "sha256": "fa936ecdfc5a160f86e2042506c1e6335af6e8b7334f519b1c447af20b6b2561",
+      "github_digest": "sha256:fa936ecdfc5a160f86e2042506c1e6335af6e8b7334f519b1c447af20b6b2561",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000015"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000016",
+      "bytes": 268435456,
+      "sha256": "2fc32a46be4afe86f92c49713f9d1ad38580623bdf52d5a7b5da0aa8011cb9ba",
+      "github_digest": "sha256:2fc32a46be4afe86f92c49713f9d1ad38580623bdf52d5a7b5da0aa8011cb9ba",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000016"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000017",
+      "bytes": 268435456,
+      "sha256": "995ea7c113fa72023464fd20f8dbe2ea08e8b9fdffb4b9023b84091f7fbd2178",
+      "github_digest": "sha256:995ea7c113fa72023464fd20f8dbe2ea08e8b9fdffb4b9023b84091f7fbd2178",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000017"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000018",
+      "bytes": 268435456,
+      "sha256": "da5173473b4892dbdf498f1fac2893222cfe57b600fca7f37028137f983f401f",
+      "github_digest": "sha256:da5173473b4892dbdf498f1fac2893222cfe57b600fca7f37028137f983f401f",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000018"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000019",
+      "bytes": 268435456,
+      "sha256": "0655f72ba14c79460803b857333c2674ad15c788125bc623e1e89916c77c23d1",
+      "github_digest": "sha256:0655f72ba14c79460803b857333c2674ad15c788125bc623e1e89916c77c23d1",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000019"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000020",
+      "bytes": 268435456,
+      "sha256": "bc68e30b48ea86795da231f005b8ff88338860b7cd72e94f34253c77eb72026e",
+      "github_digest": "sha256:bc68e30b48ea86795da231f005b8ff88338860b7cd72e94f34253c77eb72026e",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000020"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000021",
+      "bytes": 268435456,
+      "sha256": "fd8d7bd7dc89a0862ca53ffd94532e6f8737115244d2b09c4a0ac2b1001e8a99",
+      "github_digest": "sha256:fd8d7bd7dc89a0862ca53ffd94532e6f8737115244d2b09c4a0ac2b1001e8a99",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000021"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000022",
+      "bytes": 268435456,
+      "sha256": "f9f5f10f8ba4147f9855011e7549b092c6223d514357803430874f500011f000",
+      "github_digest": "sha256:f9f5f10f8ba4147f9855011e7549b092c6223d514357803430874f500011f000",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000022"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000023",
+      "bytes": 268435456,
+      "sha256": "42eea40d5b105ac7297e296e2331262a72669cb7ad7e9a254815157c63341ec4",
+      "github_digest": "sha256:42eea40d5b105ac7297e296e2331262a72669cb7ad7e9a254815157c63341ec4",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000023"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000024",
+      "bytes": 268435456,
+      "sha256": "f9cbcba3850bce1b6e873fa248d073437659d1dd02691c30ed7c4092a7aeb3f2",
+      "github_digest": "sha256:f9cbcba3850bce1b6e873fa248d073437659d1dd02691c30ed7c4092a7aeb3f2",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000024"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000025",
+      "bytes": 268435456,
+      "sha256": "553cf85f6026b61e83fbf62d752699ec79184ce8c820041b7e82bb1639ee25f5",
+      "github_digest": "sha256:553cf85f6026b61e83fbf62d752699ec79184ce8c820041b7e82bb1639ee25f5",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000025"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000026",
+      "bytes": 268435456,
+      "sha256": "21d7be1ed12097c27e64d7a2f9dcc5a8e51a5d998a81374274eb9a08f980e9e2",
+      "github_digest": "sha256:21d7be1ed12097c27e64d7a2f9dcc5a8e51a5d998a81374274eb9a08f980e9e2",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000026"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000027",
+      "bytes": 268435456,
+      "sha256": "c1de792c2e9b60c637b020bfa62fba6fdfd6f7e59dbc3cce15c1c1d6bd734494",
+      "github_digest": "sha256:c1de792c2e9b60c637b020bfa62fba6fdfd6f7e59dbc3cce15c1c1d6bd734494",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000027"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000028",
+      "bytes": 268435456,
+      "sha256": "8930c07da3bcde46125588174e3970082ce4b7e26ca453cf137e11bf40e3d580",
+      "github_digest": "sha256:8930c07da3bcde46125588174e3970082ce4b7e26ca453cf137e11bf40e3d580",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000028"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000029",
+      "bytes": 268435456,
+      "sha256": "2beae5f5de1756ebb95de1cea9490fbbbc91fe3feead40d8c1ebea2bcf534c5a",
+      "github_digest": "sha256:2beae5f5de1756ebb95de1cea9490fbbbc91fe3feead40d8c1ebea2bcf534c5a",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000029"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000030",
+      "bytes": 268435456,
+      "sha256": "f46b3ae6b3852764a57d045109487ce7455c84a656ca691ccdc25b42b552d46f",
+      "github_digest": "sha256:f46b3ae6b3852764a57d045109487ce7455c84a656ca691ccdc25b42b552d46f",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000030"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000031",
+      "bytes": 268435456,
+      "sha256": "8aa7ee4f57d91d106dbaf0cbe65789272533a9ff5c404b291082a1b480366dd3",
+      "github_digest": "sha256:8aa7ee4f57d91d106dbaf0cbe65789272533a9ff5c404b291082a1b480366dd3",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000031"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000032",
+      "bytes": 268435456,
+      "sha256": "c25cbd0c3b6e2cf8a688ad1481ace30d30be98fd4e37e2c13546f5fe62c07ad0",
+      "github_digest": "sha256:c25cbd0c3b6e2cf8a688ad1481ace30d30be98fd4e37e2c13546f5fe62c07ad0",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000032"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000033",
+      "bytes": 268435456,
+      "sha256": "57e90b70dc0c50fcb7023fb8dc83f71ec214eec04fe3c7ee9cdeb0ed7c15b1ee",
+      "github_digest": "sha256:57e90b70dc0c50fcb7023fb8dc83f71ec214eec04fe3c7ee9cdeb0ed7c15b1ee",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000033"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000034",
+      "bytes": 268435456,
+      "sha256": "0ca2aa294dd738f85691aa0bb96821cc9777b2e33480ed8463a55943cf297f09",
+      "github_digest": "sha256:0ca2aa294dd738f85691aa0bb96821cc9777b2e33480ed8463a55943cf297f09",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000034"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000035",
+      "bytes": 268435456,
+      "sha256": "097a49d5b0bf77243e3e6d0660f032e1fa253b56d0714ec472d53da66ff810de",
+      "github_digest": "sha256:097a49d5b0bf77243e3e6d0660f032e1fa253b56d0714ec472d53da66ff810de",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000035"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000036",
+      "bytes": 268435456,
+      "sha256": "c3cba89ca41de3168ec70f08a08f2cb1a992fcfaa4c004be906af9f90b9a0e4a",
+      "github_digest": "sha256:c3cba89ca41de3168ec70f08a08f2cb1a992fcfaa4c004be906af9f90b9a0e4a",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000036"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000037",
+      "bytes": 268435456,
+      "sha256": "35e5727f644529461a53822d38d58c958fc196cdcb58067fee52189e4fd0041b",
+      "github_digest": "sha256:35e5727f644529461a53822d38d58c958fc196cdcb58067fee52189e4fd0041b",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000037"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000038",
+      "bytes": 268435456,
+      "sha256": "7ce2c4b202f36f2aa0e892a94b796b8d87f9b508052682e9987b2531dd87dca1",
+      "github_digest": "sha256:7ce2c4b202f36f2aa0e892a94b796b8d87f9b508052682e9987b2531dd87dca1",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000038"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000039",
+      "bytes": 268435456,
+      "sha256": "894054ae812ec98ecb5b4bcbe94189c2b0ebbfc0cdfbb047453b502a53bfce54",
+      "github_digest": "sha256:894054ae812ec98ecb5b4bcbe94189c2b0ebbfc0cdfbb047453b502a53bfce54",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000039"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000040",
+      "bytes": 268435456,
+      "sha256": "609e3433f82e34b3fc66f650ee2d98f1c2f89325fd8961e6e2c4517a8dbdc9de",
+      "github_digest": "sha256:609e3433f82e34b3fc66f650ee2d98f1c2f89325fd8961e6e2c4517a8dbdc9de",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000040"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000041",
+      "bytes": 268435456,
+      "sha256": "41db5cbc6d332878811fddcd9fb3a78babe61989df040d22fad0a598c0874e94",
+      "github_digest": "sha256:41db5cbc6d332878811fddcd9fb3a78babe61989df040d22fad0a598c0874e94",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000041"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000042",
+      "bytes": 268435456,
+      "sha256": "43375227f9ee396adc744dcb20f2954830c6fdd2cffa24cb39b1c1e277d24452",
+      "github_digest": "sha256:43375227f9ee396adc744dcb20f2954830c6fdd2cffa24cb39b1c1e277d24452",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000042"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000043",
+      "bytes": 268435456,
+      "sha256": "7268c5fe39a7aa8ae571cf9a890a590395df7795cd7bbb7a33b3826f50f16c30",
+      "github_digest": "sha256:7268c5fe39a7aa8ae571cf9a890a590395df7795cd7bbb7a33b3826f50f16c30",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000043"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000044",
+      "bytes": 268435456,
+      "sha256": "2383ae228d1ff58f27add72bb7b49a60f471a46b55ddaaad66f481bc406f4e18",
+      "github_digest": "sha256:2383ae228d1ff58f27add72bb7b49a60f471a46b55ddaaad66f481bc406f4e18",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000044"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000045",
+      "bytes": 268435456,
+      "sha256": "c648aa36468c3b62ff2950a3eed3d7107763a25545bc554feb1e99eb738b2105",
+      "github_digest": "sha256:c648aa36468c3b62ff2950a3eed3d7107763a25545bc554feb1e99eb738b2105",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000045"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000046",
+      "bytes": 268435456,
+      "sha256": "9109c8839d600089d15f0d6ed480395ddac568c971a659b58bf3dfcf9cd76ef3",
+      "github_digest": "sha256:9109c8839d600089d15f0d6ed480395ddac568c971a659b58bf3dfcf9cd76ef3",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000046"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000047",
+      "bytes": 268435456,
+      "sha256": "3cfc4206afc957cca713a130e81974321dc294d7bede5b3010336203de5d5f72",
+      "github_digest": "sha256:3cfc4206afc957cca713a130e81974321dc294d7bede5b3010336203de5d5f72",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000047"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000048",
+      "bytes": 268435456,
+      "sha256": "dbb3549b215e7aa82a558825506737a47256fe42619125cacad6b31338c1f850",
+      "github_digest": "sha256:dbb3549b215e7aa82a558825506737a47256fe42619125cacad6b31338c1f850",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000048"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000049",
+      "bytes": 268435456,
+      "sha256": "68018908d700b9e5ffdfa34f7fc31af0b01d467d00e68dd44ddff4f6d97ebebd",
+      "github_digest": "sha256:68018908d700b9e5ffdfa34f7fc31af0b01d467d00e68dd44ddff4f6d97ebebd",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000049"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000050",
+      "bytes": 268435456,
+      "sha256": "62fa4833143717763361d4bc204e0a320865571b045fa46eaa947cf2a974c5b8",
+      "github_digest": "sha256:62fa4833143717763361d4bc204e0a320865571b045fa46eaa947cf2a974c5b8",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000050"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000051",
+      "bytes": 268435456,
+      "sha256": "5094e2e2ffff1ca8200f44473a889336c389d82a53d42ae8f9d202868bf190a0",
+      "github_digest": "sha256:5094e2e2ffff1ca8200f44473a889336c389d82a53d42ae8f9d202868bf190a0",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000051"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000052",
+      "bytes": 268435456,
+      "sha256": "e84a0f3a89e816b1583e0afb7031848379c8a333edcbf51e25a491bddc1e37d8",
+      "github_digest": "sha256:e84a0f3a89e816b1583e0afb7031848379c8a333edcbf51e25a491bddc1e37d8",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000052"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000053",
+      "bytes": 268435456,
+      "sha256": "679fe605d33dec4ffc505ee679f1c1870a13e1f22f82a6f2229d6ad1580d9b11",
+      "github_digest": "sha256:679fe605d33dec4ffc505ee679f1c1870a13e1f22f82a6f2229d6ad1580d9b11",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000053"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000054",
+      "bytes": 268435456,
+      "sha256": "85ac76ea15c7b53b60897b06456120b30cba8706e68c7b00401e9455f0df8d77",
+      "github_digest": "sha256:85ac76ea15c7b53b60897b06456120b30cba8706e68c7b00401e9455f0df8d77",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000054"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000055",
+      "bytes": 268435456,
+      "sha256": "b2f86e09ff1cac1d6dd4ea8569522c55a3d6b17ff46d29fb4142921922f82a87",
+      "github_digest": "sha256:b2f86e09ff1cac1d6dd4ea8569522c55a3d6b17ff46d29fb4142921922f82a87",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000055"
+    },
+    {
+      "name": "ReimburseAudit-model-training.tar.zst.part-000056",
+      "bytes": 244044299,
+      "sha256": "4388b9b609e95f06a08be22af01ed3254c06be9fe02dec64705d16bb8481afb7",
+      "github_digest": "sha256:4388b9b609e95f06a08be22af01ed3254c06be9fe02dec64705d16bb8481afb7",
+      "url": "https://github.com/zhoudapig13/ReimburseAudit/releases/download/server-backup-20261120/ReimburseAudit-model-training.tar.zst.part-000056"
+    }
+  ]
+}

@@ -16,8 +16,18 @@ cat ReimburseAudit-essential.tar.zst.part-* | zstd -d | tar -xf - -C restored
 
 The restored project is `restored/模型训练/`. Zstandard and GitHub CLI must be installed to run these commands.
 
-## Complete historical archive: separate upload
+## Complete historical archive: uploaded and verified
 
-The [server-backup-20261120 release](https://github.com/zhoudapig13/ReimburseAudit/releases/tag/server-backup-20261120) is the separate full-directory upload, including the historical training archive. It is complete only when its own `BACKUP_COMPLETE.json` and `SHA256SUMS` are present. Download it into a different directory; do not mix volumes from different releases.
+The [server-backup-20261120 release](https://github.com/zhoudapig13/ReimburseAudit/releases/tag/server-backup-20261120) contains the full-directory snapshot, including the historical training archive. All 57 data volumes (15,276,429,835 compressed bytes) and the completion manifest have been verified against GitHub SHA-256 digests. The exact archive exclusions and checksums are in [full/BACKUP_COMPLETE.json](full/BACKUP_COMPLETE.json).
+
+Download this archive into a separate directory; do not mix volumes from different releases.
+
+```bash
+gh release download server-backup-20261120 --repo zhoudapig13/ReimburseAudit --dir full-backup
+cd full-backup
+sha256sum -c SHA256SUMS
+mkdir -p restored
+cat ReimburseAudit-model-training.tar.zst.part-* | zstd -d | tar -xf - -C restored
+```
 
 The original source inventory is recorded in [SOURCE_INVENTORY.json](SOURCE_INVENTORY.json). Local originals have not been deleted.
